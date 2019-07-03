@@ -5,17 +5,11 @@ using UnityEngine;
 public class Bear : MonoBehaviour
 {
     public float Bear_speed = 3.0f;//몹 속도
-    public int Bear_number = 3;//몹 수
-    public float timeSpan = 0.0f;//시간 체크
-    public float Spown_term = 3.0f;//스폰되는 간격
-    
-
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(Move());
-        
+        StartCoroutine(Move());    
     }
     
    
