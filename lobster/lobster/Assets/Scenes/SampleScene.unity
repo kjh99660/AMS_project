@@ -210,6 +210,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -225,6 +226,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0204cc060501e794182a0587540f1ede, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -253,7 +266,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 4.506984
-  m_Depth: -1
+  m_Depth: 2
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -313,8 +326,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CreateBear: {fileID: 483293239535299063, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
     type: 3}
-  Spown_term: 3
-  Bear_number: 3
 --- !u!4 &524670800
 Transform:
   m_ObjectHideFlags: 0
@@ -423,12 +434,12 @@ PrefabInstance:
     - target: {fileID: 483293239535299058, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.96
+      value: -3.22
       objectReference: {fileID: 0}
     - target: {fileID: 483293239535299058, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.56
+      value: -7.31
       objectReference: {fileID: 0}
     - target: {fileID: 483293239535299058, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
         type: 3}
@@ -474,6 +485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483293239535299060, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
+        type: 3}
+      propertyPath: stage_level
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d, type: 3}
