@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Bear.cs" />
     <Compile Include="Assets\Camera.cs" />
+    <Compile Include="Assets\rabbit.cs" />
     <Compile Include="Assets\Spawner.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kdh40/OneDrive/바탕 화면/AMS/lobster/lobster/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

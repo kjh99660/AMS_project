@@ -50,3 +50,6 @@ TagManager:
   - name: monster
     uniqueID: 265708135
     locked: 0
+  - name: rabbit
+    uniqueID: 3218629647
+    locked: 0
