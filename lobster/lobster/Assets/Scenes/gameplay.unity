@@ -308,13 +308,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 524670798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6040a0a8095331a49945a661dff1b6aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 051441c3bc0ca264eb6e0c0b76a4b85f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:lobster/lobster/Assets/Scenes/SampleScene.unity
   CreateBear: {fileID: 483293239535299063, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
     type: 3}
   Spown_term: 3
   Bear_number: 3
+=======
+  CreateBear: {fileID: 0}
+>>>>>>> 377bd78f8dad5e8249c140d7e41ce6f984800995:lobster/lobster/Assets/Scenes/gameplay.unity
 --- !u!4 &524670800
 Transform:
   m_ObjectHideFlags: 0
