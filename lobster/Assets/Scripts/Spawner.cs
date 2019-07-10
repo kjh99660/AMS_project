@@ -5,6 +5,8 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject CreateBear = null;
+    public GameObject CreateBear_2 = null;
+    public GameObject CreateBear_3 = null;
     
 
     // Start is called before the first frame update
