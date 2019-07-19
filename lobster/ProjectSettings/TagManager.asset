@@ -50,3 +50,6 @@ TagManager:
   - name: monster
     uniqueID: 265708135
     locked: 0
+  - name: UI
+    uniqueID: 1513207403
+    locked: 0

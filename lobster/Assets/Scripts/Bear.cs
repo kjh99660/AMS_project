@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bear : MonoBehaviour
 {
     public static float Bear_speed = 3.0f;//몹 속도
-    public static int stage_level = 2; //단계
+    public static int stage_level = 1; //단계
     public static float Spown_term = 3.0f;//스폰되는 간격
     public static int Bear_number = 3;//몹 수
 
