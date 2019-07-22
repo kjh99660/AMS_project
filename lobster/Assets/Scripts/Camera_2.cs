@@ -2,20 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Button_rabbit : MonoBehaviour
+public class Camera_2 : MonoBehaviour
 {
     // Start is called before the first frame update
-    public GameObject rabbit = null;
-    
     void Start()
     {
         
     }
-    public void Makerabbit()
+
+    void LateUpdate()
     {
-        Instantiate(rabbit, new Vector3(GameManager.instance.MousePosition.x, GameManager.instance.MousePosition.y, 1), Quaternion.identity);
+        if (GameManager.instance.stage_level == 2)
+        {
+            transform.position = new Vector3(0, -15, -10);
+
+        }
     }
-    
     // Update is called once per frame
     void Update()
     {

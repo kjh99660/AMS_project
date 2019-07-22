@@ -1,22 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Camera : MonoBehaviour
+public class Camera_1 : MonoBehaviour
 {
     
     // Start is called before the first frame update
     void Start()
     {
-        
+
+
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        if (Bear.stage_level == 2)
+        if (GameManager.instance.stage_level == 2)
         {
-            transform.position = new Vector3(0, -15, -10);
+            SceneManager.LoadScene("level2");
+
         }
     }
 }

@@ -66,10 +66,14 @@
     <Compile Include="Assets\Scripts\Bear_2.cs" />
     <Compile Include="Assets\Scripts\Bear_3.cs" />
     <Compile Include="Assets\Scripts\Button_rabbit.cs" />
-    <Compile Include="Assets\Scripts\Camera.cs" />
+    <Compile Include="Assets\Scripts\Camera_1.cs" />
+    <Compile Include="Assets\Scripts\Camera_2.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Rabbit.cs" />
     <Compile Include="Assets\Scripts\Rabbit_2.cs" />
+    <Compile Include="Assets\Scripts\Rabbit_2_button.cs" />
     <Compile Include="Assets\Scripts\Rabbit_3.cs" />
+    <Compile Include="Assets\Scripts\rabbit_3_button.cs" />
     <Compile Include="Assets\Scripts\Rabbit_Spawner.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\to1.cs" />
