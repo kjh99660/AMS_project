@@ -5,6 +5,25 @@ using UnityEngine;
 public class Bear : MonoBehaviour
 {
 
+    protected int Bear1_hp = 10;
+
+    public int Bear1_HP
+    {
+        get
+        {
+            return Bear1_hp;
+        }
+        set
+        {
+            Bear1_hp = value;
+            if(Bear1_HP <= 0)
+            {
+                Destroy(gameObject);
+                GameManager.instance.Money += 20;
+            }
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -114,7 +133,7 @@ public class Bear : MonoBehaviour
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            Destroy(GetComponent<SpriteRenderer>(),1.0f);
+            Destroy(gameObject,1.0f);
         
     }
     // Update is called once per frame
