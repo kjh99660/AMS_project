@@ -1084,8 +1084,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61c3f391ab463624b99c828287dbce9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backVolume: {fileID: 429480913}
-  audio: {fileID: 0}
+  Volume: {fileID: 429480913}
+  audio: {fileID: 434820396}
 --- !u!82 &434820396
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1348,8 +1348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_AnchoredPosition: {x: -1.0899963, y: 3.2849998}
+  m_SizeDelta: {x: 45.54, y: 6.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &485806428
 MonoBehaviour:
@@ -1682,7 +1682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.97920346, g: 0.990566, b: 0.4532307, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2675,8 +2675,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 0}
+  m_AnchoredPosition: {x: 2.5099945, y: 1.75}
+  m_SizeDelta: {x: 43.48, y: 3.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2017898701
 MonoBehaviour:

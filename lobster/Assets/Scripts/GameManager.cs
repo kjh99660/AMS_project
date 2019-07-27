@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public int Bear_number = 3;//몹 수
     public float Bear_speed = 3.0f;//몹 속도
     public Vector2 MousePosition;//클릭한 마우스 위치
+    public int Money = 100;
 
     private void Awake()
     {
