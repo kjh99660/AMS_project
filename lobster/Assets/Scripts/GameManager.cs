@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public Vector2 MousePosition;//클릭한 마우스 위치
     public int Money=100; //시작 돈
 
+
     private void Awake()
     {
         instance = this;

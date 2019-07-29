@@ -8,7 +8,6 @@ public class Bear : MonoBehaviour
     
     protected int Bear1_hp = 10;
    
-
     public int Bear1_HP
     {
         get
@@ -25,7 +24,6 @@ public class Bear : MonoBehaviour
             }
         }
     }
-    
     // Start is called before the first frame update
     void Start()
     {
