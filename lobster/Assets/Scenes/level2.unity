@@ -398,6 +398,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92059f08c78c036419e867cd2e06d859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  first: 1
+--- !u!65 &237616933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 237616931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &400176514
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +523,9 @@ MonoBehaviour:
   CreateBear: {fileID: 237616931}
   CreateBear_2: {fileID: 772862510}
   CreateBear_3: {fileID: 1832016919}
+  Fake_Bear: []
+  Bear_numbering: 0
+  fake_bear: {fileID: 0}
 --- !u!4 &531386135
 Transform:
   m_ObjectHideFlags: 0
@@ -683,7 +700,7 @@ PrefabInstance:
     - target: {fileID: 3112119957233375642, guid: 913d35ae0c7918042a6d81278e6345e8,
         type: 3}
       propertyPath: m_TagString
-      value: Bear_2
+      value: Bear_1
       objectReference: {fileID: 0}
     - target: {fileID: 3112119957233375642, guid: 913d35ae0c7918042a6d81278e6345e8,
         type: 3}
@@ -1353,7 +1370,9 @@ MonoBehaviour:
   Spown_term: 3
   Bear_number: 3
   Bear_speed: 3
+  Bear_attack_speed: 1
   MousePosition: {x: 0, y: 0}
+  Money: 100
 --- !u!4 &1688635816
 Transform:
   m_ObjectHideFlags: 0
@@ -1638,6 +1657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bear_3
       objectReference: {fileID: 0}
+    - target: {fileID: 847899745501818965, guid: a3ac6eee15fcc3d488462bba1f3f2cee,
+        type: 3}
+      propertyPath: m_TagString
+      value: Bear_1
+      objectReference: {fileID: 0}
     - target: {fileID: 1704773220281543315, guid: a3ac6eee15fcc3d488462bba1f3f2cee,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1738,12 +1762,12 @@ PrefabInstance:
     - target: {fileID: 1761910971919769845, guid: 4bcce71be2b572e45b0de3ed6ec0b4c1,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.04
+      value: -6.96
       objectReference: {fileID: 0}
     - target: {fileID: 1761910971919769845, guid: 4bcce71be2b572e45b0de3ed6ec0b4c1,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.54
+      value: -8.66
       objectReference: {fileID: 0}
     - target: {fileID: 1761910971919769845, guid: 4bcce71be2b572e45b0de3ed6ec0b4c1,
         type: 3}
@@ -1813,3 +1837,50 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1919300845}
   m_PrefabAsset: {fileID: 0}
+--- !u!50 &1919300847
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919300846}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1919300850
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919300846}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6, y: 6}
+  m_EdgeRadius: 0

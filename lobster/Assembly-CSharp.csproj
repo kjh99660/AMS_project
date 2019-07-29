@@ -69,16 +69,23 @@
     <Compile Include="Assets\Scripts\Camera_1.cs" />
     <Compile Include="Assets\Scripts\Camera_2.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\goto\backToStart.cs" />
+    <Compile Include="Assets\Scripts\goto\bts_Book.cs" />
+    <Compile Include="Assets\Scripts\goto\to1.cs" />
+    <Compile Include="Assets\Scripts\goto\to2.cs" />
+    <Compile Include="Assets\Scripts\goto\toBook.cs" />
+    <Compile Include="Assets\Scripts\goto\toExp.cs" />
+    <Compile Include="Assets\Scripts\goto\toWaveSel.cs" />
     <Compile Include="Assets\Scripts\Rabbit.cs" />
     <Compile Include="Assets\Scripts\Rabbit_2.cs" />
     <Compile Include="Assets\Scripts\Rabbit_2_button.cs" />
     <Compile Include="Assets\Scripts\Rabbit_3.cs" />
     <Compile Include="Assets\Scripts\rabbit_3_button.cs" />
     <Compile Include="Assets\Scripts\Rabbit_Spawner.cs" />
+    <Compile Include="Assets\Scripts\sound\BgmSlider.cs" />
+    <Compile Include="Assets\Scripts\sound\offSoundSet.cs" />
+    <Compile Include="Assets\Scripts\sound\toSoundSet.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\to1.cs" />
-    <Compile Include="Assets\Scripts\toExp.cs" />
-    <Compile Include="Assets\Scripts\toWaveSel.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kdh40/OneDrive/바탕 화면/AMS/lobster/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
