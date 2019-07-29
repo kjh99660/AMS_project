@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Button_rabbit.cs" />
      <Compile Include="Assets\Scripts\Camera_1.cs" />
      <Compile Include="Assets\Scripts\Camera_2.cs" />
+     <Compile Include="Assets\Scripts\CutToon.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\goto\backToStart.cs" />
      <Compile Include="Assets\Scripts\goto\bts_Book.cs" />
