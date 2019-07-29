@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\goto\toBook.cs" />
      <Compile Include="Assets\Scripts\goto\toExp.cs" />
      <Compile Include="Assets\Scripts\goto\toWaveSel.cs" />
+     <Compile Include="Assets\Scripts\PauseGame.cs" />
      <Compile Include="Assets\Scripts\Rabbit.cs" />
      <Compile Include="Assets\Scripts\Rabbit_2.cs" />
      <Compile Include="Assets\Scripts\Rabbit_2_button.cs" />
