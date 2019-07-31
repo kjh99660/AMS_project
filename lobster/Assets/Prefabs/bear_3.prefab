@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1704773220281543315}
   - component: {fileID: 59999455148139640}
+  - component: {fileID: 4264634756092894836}
   m_Layer: 0
   m_Name: bear_3
   m_TagString: Untagged
@@ -65,8 +66,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 265708135
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2b6a3258f22db1841bcc307dfbd45e34, type: 3}
   m_Color: {r: 0.18867922, g: 0.04538981, b: 0.04538981, a: 1}
@@ -79,3 +80,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4264634756092894836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847899745501818965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7698bec68de811d4eb7dcb670800c70c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
