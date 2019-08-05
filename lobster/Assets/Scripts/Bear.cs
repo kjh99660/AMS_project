@@ -38,52 +38,55 @@ public class Bear : MonoBehaviour
         {
 
 
-            while (transform.position.x <= -2.3f)
+            while (transform.position.x <= -1.8f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= 2.8f)
+            while (transform.position.y <= 2.5f)
             {
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
+            transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
             while (transform.position.x >= -5.3f)
             {
                 transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y >= -2.5f)
+            while (transform.position.y >= -3.3f)
             {
                 transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 0.43f)
+            transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+            while (transform.position.x <= 1.6f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= 2.0f)
+            while (transform.position.y <= 1.5f)
             {
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 3.3f)
+            while (transform.position.x <= 5.3f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y >= -2.5f)
+            while (transform.position.y >= -3.2f)
             {
                 transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 4.5f)
+            while (transform.position.x <= 8.5f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            Destroy(gameObject, 1.0f);
+            Destroy(gameObject);
+            GameManager.instance.life--;
         }
     }
     public IEnumerator Move_2() {
@@ -130,7 +133,8 @@ public class Bear : MonoBehaviour
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            Destroy(gameObject, 1.0f);
+            Destroy(gameObject);
+            GameManager.instance.life--;
         }
     }
     // Update is called once per frame

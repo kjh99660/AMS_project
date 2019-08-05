@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Bear.cs" />
     <Compile Include="Assets\Scripts\Bear_2.cs" />
     <Compile Include="Assets\Scripts\Bear_3.cs" />
+    <Compile Include="Assets\Scripts\Bomb.cs" />
     <Compile Include="Assets\Scripts\Button_rabbit.cs" />
     <Compile Include="Assets\Scripts\Camera_1.cs" />
     <Compile Include="Assets\Scripts\Camera_2.cs" />
@@ -297,9 +298,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/kdh40/OneDrive/바탕 화면/AMS/lobster/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>C:/Users/kdh40/OneDrive/바탕 화면/AMS/lobster/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>

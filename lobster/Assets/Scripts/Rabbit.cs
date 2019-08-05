@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Rabbit : MonoBehaviour
 {
-    GameObject[] Bear_1_Tag = null;
     public List<GameObject> collBear_1 = new List<GameObject>();
     //Bear HP;
     // Start is called before the first frame update
