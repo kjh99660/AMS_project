@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public float Bear_attack_speed = 0.5f; //곰 공속 -> 여기서 수정 불가
     public Vector2 MousePosition;//클릭한 마우스 위치
     public int Money = 100; //시작 돈
+    public int life = 10; //목숨
 
     public float Spown_term = 3.0f;//1번 곰이 스폰되는 간격 -> 여기서 수정 불가
     public int Bear_number = 3;//1번 곰의 수
