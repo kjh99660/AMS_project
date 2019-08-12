@@ -93,6 +93,8 @@
     <Compile Include="Assets\Scripts\ResumeGame.cs" />
     <Compile Include="Assets\Scripts\sound\bgmSlider.cs" />
     <Compile Include="Assets\Scripts\sound\offSoundSet.cs" />
+    <Compile Include="Assets\Scripts\sound\SManager2.cs" />
+    <Compile Include="Assets\Scripts\sound\SoundManager.cs" />
     <Compile Include="Assets\Scripts\sound\toSoundSet.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Reference Include="Unity.Timeline.Editor">

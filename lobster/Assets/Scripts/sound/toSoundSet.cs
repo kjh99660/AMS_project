@@ -20,7 +20,7 @@ public class toSoundSet : MonoBehaviour
     public void OnClick_SoundButton()
     {
 
-            gameObject.SetActive(true);
+           gameObject.SetActive(true);
 
     }
    

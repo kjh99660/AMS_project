@@ -1970,6 +1970,8 @@ MonoBehaviour:
   Bear_attack_speed: 0.5
   MousePosition: {x: 0, y: 0}
   Money: 100
+  life: 10
+  bomb: 3
   Spown_term: 3
   Bear_number: 3
   Bear_speed: 2
@@ -2611,7 +2613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -352.94, y: -213.53}
+  m_AnchoredPosition: {x: -340.14, y: -215.66}
   m_SizeDelta: {x: -700.606, y: -389.159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089674660

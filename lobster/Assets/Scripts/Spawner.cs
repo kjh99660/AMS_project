@@ -33,7 +33,7 @@ public class Spawner : MonoBehaviour
         {
             if (GameManager.instance.stage_level == 1)
             {
-                GameObject newBear = Instantiate(CreateBear, new Vector3(-10, 0.1f, 1), Quaternion.identity); //곰 1 생성
+                GameObject newBear = Instantiate(CreateBear, new Vector3(-10, 0.1f, -4), Quaternion.identity); //곰 1 생성
                 Fake_Bear1.Add(newBear);
 
                 GameManager.instance.Spown_term = 3.0f;
@@ -46,7 +46,7 @@ public class Spawner : MonoBehaviour
 
             if(GameManager.instance.stage_level == 2)
             {
-                GameObject newBear_2 = Instantiate(CreateBear, new Vector3(-8.5f, -13.05f, 1), Quaternion.identity); // 생성
+                GameObject newBear_2 = Instantiate(CreateBear, new Vector3(-8.5f, -13.05f, -4), Quaternion.identity); // 생성
                 Fake_Bear1.Add(newBear_2);
 
                 GameManager.instance.Spown_term = 3.0f;// 리스폰시간 초기화
@@ -60,7 +60,7 @@ public class Spawner : MonoBehaviour
         {
             if (GameManager.instance.stage_level == 1)
             {
-                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-10, 0.1f, 1), Quaternion.identity); //곰 2 생성
+                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-10, 0.1f, -4), Quaternion.identity); //곰 2 생성
                 Fake_Bear2.Add(newBear_2);
 
                 GameManager.instance.Spown_term_2 = 3.0f;
@@ -73,7 +73,7 @@ public class Spawner : MonoBehaviour
 
             if (GameManager.instance.stage_level == 2)
             {
-                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-8.5f, -13.05f, 1), Quaternion.identity); // 생성
+                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-8.5f, -13.05f, -4), Quaternion.identity); // 생성
                 Fake_Bear2.Add(newBear_2);
 
                 GameManager.instance.Spown_term_2 = 3.0f;
