@@ -36,53 +36,50 @@ public class Bear : MonoBehaviour
     public IEnumerator Move()//움직이는 경로
     {
 
-
         {
-
-
-            while (transform.position.x <= -1.8f)
+            while (transform.position.x <= 19.3f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= 2.5f)
+            while (transform.position.y <= 16.9f)
             {
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            transform.localScale = new Vector3(-0.3f, 0.3f, 0.3f);
-            while (transform.position.x >= -5.3f)
+            transform.localScale = new Vector3(-1, 1, 1);
+            while (transform.position.x >= 10.5f)
             {
                 transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y >= -3.3f)
+            while (transform.position.y >= -0.9f)
             {
                 transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
-            while (transform.position.x <= 1.6f)
+            transform.localScale = new Vector3(1, 1, 1);
+            while (transform.position.x <= 28.5f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= 1.5f)
+            while (transform.position.y <= 13.8f)
             {
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 5.3f)
+            while (transform.position.x <= 37.1f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y >= -3.2f)
+            while (transform.position.y >= -0.8f)
             {
                 transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 8.5f)
+            while (transform.position.x <= 43.2f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();

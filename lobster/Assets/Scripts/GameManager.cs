@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int Money = 100; //시작 돈
     public int life = 10; //목숨
     public float bomb = 3.0f;//폭탄 터지는 시간
+    public int rabbit_number = 1;//UI 에서 선택한 토끼 종류 결정
 
     public float Spown_term = 3.0f;//1번 곰이 스폰되는 간격 -> 여기서 수정 불가
     public int Bear_number = 3;//1번 곰의 수

@@ -32,54 +32,55 @@ public class Bear_2 : MonoBehaviour
     }
     public IEnumerator Move()//움직이는 경로
     {
+        while (transform.position.x <= 19.3f)
         {
-            while (transform.position.x <= -2.3f)
-            {
-                transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.y <= 2.8f)
-            {
-                transform.Translate(0, GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.x >= -5.3f)
-            {
-                transform.Translate(-GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.y >= -2.5f)
-            {
-                transform.Translate(0, -GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.x <= 0.43f)
-            {
-                transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.y <= 2.0f)
-            {
-                transform.Translate(0, GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.x <= 3.3f)
-            {
-                transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.y >= -2.5f)
-            {
-                transform.Translate(0, -GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            while (transform.position.x <= 4.5f)
-            {
-                transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
-                yield return new WaitForEndOfFrame();
-            }
-            Destroy(gameObject, 1.0f);
+            transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
+            yield return new WaitForEndOfFrame();
         }
+        while (transform.position.y <= 16.9f)
+        {
+            transform.Translate(0, GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        transform.localScale = new Vector3(-1, 1, 1);
+        while (transform.position.x >= 10.5f)
+        {
+            transform.Translate(-GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        while (transform.position.y >= 10.6f)
+        {
+            transform.Translate(0, -GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        transform.localScale = new Vector3(1, 1, 1);
+        while (transform.position.x <= 28.5f)
+        {
+            transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        while (transform.position.y <= 13.8f)
+        {
+            transform.Translate(0, GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        while (transform.position.x <= 37.1f)
+        {
+            transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        while (transform.position.y >= -0.8f)
+        {
+            transform.Translate(0, -GameManager.instance.Bear_2_speed * Time.deltaTime, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        while (transform.position.x <= 43.2f)
+        {
+            transform.Translate(GameManager.instance.Bear_2_speed * Time.deltaTime, 0, 0);
+            yield return new WaitForEndOfFrame();
+        }
+        Destroy(gameObject);
+        GameManager.instance.life--;
     }
     public IEnumerator Move_2()
     {

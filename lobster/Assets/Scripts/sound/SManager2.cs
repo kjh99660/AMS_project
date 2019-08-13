@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SManager2 : bgmSlider
+public class SManager2 : BgmSlider
 {
 
     public static SManager2 instance = null;

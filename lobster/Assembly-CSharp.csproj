@@ -78,7 +78,7 @@
     <Compile Include="Assets\Scripts\goto\to3.cs" />
     <Compile Include="Assets\Scripts\goto\toBook.cs" />
     <Compile Include="Assets\Scripts\goto\toExp.cs" />
-    <Compile Include="Assets\Scripts\goto\toUnitAssetMenu.cs" />
+    <Compile Include="Assets\Scripts\goto\ToUnitAssetMenu.cs" />
     <Compile Include="Assets\Scripts\goto\toWaveSel.cs" />
     <Compile Include="Assets\Scripts\Life.cs" />
     <Compile Include="Assets\Scripts\Money.cs" />
@@ -88,10 +88,11 @@
     <Compile Include="Assets\Scripts\Rabbit_2_button.cs" />
     <Compile Include="Assets\Scripts\Rabbit_3.cs" />
     <Compile Include="Assets\Scripts\rabbit_3_button.cs" />
+    <Compile Include="Assets\Scripts\Rabbit_pos.cs" />
     <Compile Include="Assets\Scripts\Rabbit_Spawner.cs" />
     <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\ResumeGame.cs" />
-    <Compile Include="Assets\Scripts\sound\bgmSlider.cs" />
+    <Compile Include="Assets\Scripts\sound\BgmSlider.cs" />
     <Compile Include="Assets\Scripts\sound\offSoundSet.cs" />
     <Compile Include="Assets\Scripts\sound\SManager2.cs" />
     <Compile Include="Assets\Scripts\sound\SoundManager.cs" />
