@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5510020282528974365}
   - component: {fileID: 938613128217833505}
   - component: {fileID: 3136044233122990430}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: bear_2
   m_TagString: Bear_2
   m_Icon: {fileID: 0}
@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 684b398f05862b24b8df4a6e1295c40b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rend: {fileID: 0}
 --- !u!61 &3136044233122990430
 BoxCollider2D:
   m_ObjectHideFlags: 0

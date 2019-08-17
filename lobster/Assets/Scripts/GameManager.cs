@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public int stage_level = 2; //단계
+    public int stage_level = 3; //단계
     public float Bear_attack_speed = 0.5f; //곰 공속 -> 여기서 수정 불가
     public Vector2 MousePosition;//클릭한 마우스 위치
     public int Money = 100; //시작 돈
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     public float Spown_term = 3.0f;//1번 곰이 스폰되는 간격 -> 여기서 수정 불가
     public int Bear_number = 3;//1번 곰의 수
-    public float Bear_speed = 3.0f;//1번 곰의 속도
+    public float Bear_speed = 8.0f;//1번 곰의 속도
 
 
     public float Spown_term_2 = 3.0f;//2번 곰이 스폰되는 간격 -> 여기서 수정 불가

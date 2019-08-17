@@ -43,10 +43,21 @@ public class Spawner : MonoBehaviour
                 Debug.Log("곰_1 복제함");
                 
             }
-
-            if(GameManager.instance.stage_level == 2)
+            if (GameManager.instance.stage_level == 2)
             {
-                GameObject newBear_2 = Instantiate(CreateBear, new Vector3(-8.5f, -13.05f, -4), Quaternion.identity); // 생성
+                GameObject newBear = Instantiate(CreateBear, new Vector3(1.58f, 28.63f, -4), Quaternion.identity); //곰 1 생성
+                Fake_Bear1.Add(newBear);
+
+                GameManager.instance.Spown_term = 3.0f;
+                GameManager.instance.Bear_number--;//곰 1 리스폰 시간 및 소환 수 처리
+
+                Bear1_numbering++;
+                Debug.Log("곰_1 복제함");
+
+            }
+            if (GameManager.instance.stage_level == 3)
+            {
+                GameObject newBear_2 = Instantiate(CreateBear, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                 Fake_Bear1.Add(newBear_2);
 
                 GameManager.instance.Spown_term = 3.0f;// 리스폰시간 초기화
@@ -70,10 +81,22 @@ public class Spawner : MonoBehaviour
                 Debug.Log("곰 _2 복제함");
 
             }
-
             if (GameManager.instance.stage_level == 2)
             {
-                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-8.5f, -13.05f, -4), Quaternion.identity); // 생성
+                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(1.58f, 28.63f, -4), Quaternion.identity); //곰 2 생성
+                Fake_Bear2.Add(newBear_2);
+
+                GameManager.instance.Spown_term_2 = 3.0f;
+                GameManager.instance.Bear_2_number--;//곰 2 리스폰 시간 및 소환 수 처리
+
+                Bear2_numbering++;
+                Debug.Log("곰 _2 복제함");
+
+            }
+
+            if (GameManager.instance.stage_level == 3)
+            {
+                GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                 Fake_Bear2.Add(newBear_2);
 
                 GameManager.instance.Spown_term_2 = 3.0f;

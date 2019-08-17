@@ -27,16 +27,25 @@ public class Bear : MonoBehaviour
             StartCoroutine(Move());
 
         }
-        if (GameManager.instance.stage_level == 2)
+        if(GameManager.instance.stage_level == 2)
         {
             StartCoroutine(Move_2());
         }
+        if (GameManager.instance.stage_level == 3)
+        {
+            StartCoroutine(Move_3());
+        }
+        if(GameManager.instance.stage_level == 4)
+        {
+          //  StartCoroutine(Move_4());
+        }
+        
     }
 
     public IEnumerator Move()//움직이는 경로
     {
 
-        {
+        
             while (transform.position.x <= 19.3f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
@@ -86,19 +95,19 @@ public class Bear : MonoBehaviour
             }
             Destroy(gameObject);
             GameManager.instance.life--;
-        }
+        
     }
-    public IEnumerator Move_2() {
+    public IEnumerator Move_3() {
         //this.GetComponent<BoxCollider>().enabled = false;
         //Invoke("EnableCol", 2); // 2초뒤에 EnableCol 이라는 함수를 호출함 
         {
 
-            while (transform.position.x <= -4.9f)
+            while (transform.position.x <=0)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= -2.29f)
+            while (transform.position.x <= 8.5f)
             {
                 rend.enabled = false;
                 this.GetComponent<BoxCollider2D>().enabled = false;
@@ -107,27 +116,27 @@ public class Bear : MonoBehaviour
                 Invoke("EnableCol", 0);
                 rend.enabled = true;
             }
-            while (transform.position.y >= -16)
+            while (transform.position.y >= 15.88f)
             {
                 transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 1.72f)
+            while (transform.position.x <= 21.3f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime * 1.3f, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x <= 3.45f)
+            while (transform.position.x <= 26.4f)
             {
                 transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= -14.5f)
+            while (transform.position.y <= 18.18f)
             {
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= -12)
+            while (transform.position.y <= 24.9f)
             {
                 rend.enabled = false;
                 this.GetComponent<BoxCollider2D>().enabled = false;
@@ -135,33 +144,34 @@ public class Bear : MonoBehaviour
                 yield return new WaitForEndOfFrame();
                 Invoke("EnableCol", 0);
                 rend.enabled = true;
-            }          
-            while (transform.position.x >= 0.49f)
+            }
+            transform.localScale = new Vector3(-1, 1, 1);
+            while (transform.position.x >= 17.5f)
             {
                 transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y >= -17.89f)
+            while (transform.position.y >= 7)
             {
                 transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x >= -1.5f)
+            while (transform.position.x >= 11.1f)
             {
                 transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x >= -4)
+            while (transform.position.x >= 3.36f)
             {
                 transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime * 1.3f, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.x >= -5.31f)
+            while (transform.position.x >= -0.62f)
             {
                 transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
-            while (transform.position.y <= -11.1f)
+            while (transform.position.y <= 25.34f)
             {
                 transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
                 yield return new WaitForEndOfFrame();
@@ -170,6 +180,91 @@ public class Bear : MonoBehaviour
             GameManager.instance.life--;
         }
     }
+
+    public IEnumerator Move_2()
+    {
+        {
+            while (transform.position.y >= 22.92f)
+            {
+                transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.x <= 13.4f)
+            {
+                transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.y >= 11)
+            {
+                transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            transform.localScale = new Vector3(-1, 1, 1);
+            while (transform.position.x >= 1.4f)
+            {
+                transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.y <= 16.89f)
+            {
+                transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            transform.localScale = new Vector3(1, 1, 1);
+            while (transform.position.x <= 12.97f)
+            {
+                rend.enabled = false;
+                this.GetComponent<BoxCollider2D>().enabled = false;
+                transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
+                yield return new WaitForEndOfFrame();
+                Invoke("EnableCol", 0);
+                rend.enabled = true;
+            }
+            while (transform.position.x <= 25.54f)
+            {
+                transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.y <= 22.95f)
+            {
+                transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.x <= 34.6f)
+            {
+                transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.y >= 13.39f)
+            {
+                rend.enabled = false;
+                this.GetComponent<BoxCollider2D>().enabled = false;
+                transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+                Invoke("EnableCol", 0);
+                rend.enabled = true;
+            }
+            while (transform.position.y >= 8.05f)
+            {
+                transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            transform.localScale = new Vector3(-1, 1, 1);
+            while (transform.position.x >= 25.29f)
+            {
+                transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime, 0, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            while (transform.position.y >= 5.67f)
+            {
+                transform.Translate(0, -GameManager.instance.Bear_speed * Time.deltaTime, 0);
+                yield return new WaitForEndOfFrame();
+            }
+            Destroy(gameObject);
+            GameManager.instance.life--;
+        }
+    }
+
     void EnableCol()
     {
         this.GetComponent<BoxCollider2D>().enabled = true; // 자기자신의 박스콜라이더를 켬 

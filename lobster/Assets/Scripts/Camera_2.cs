@@ -14,7 +14,7 @@ public class Camera_2 : MonoBehaviour
     {
         if (GameManager.instance.stage_level == 2)
         {
-            transform.position = new Vector3(0, -15, -10);
+            transform.position = new Vector3(11.51f, 15.35f, -10);
 
         }
     }

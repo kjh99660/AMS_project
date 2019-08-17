@@ -26,7 +26,7 @@ public class BgmSlider : MonoBehaviour
 
     public void SoundSlider()
     {
-        audio.volume = Volume.value;
+        audio.volume = Volume.value;//여기 계속 에러나요
 
         Vol = Volume.value;
         PlayerPrefs.SetFloat("Vol", Vol);
