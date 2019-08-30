@@ -1,0 +1,44 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+    public static GameManager instance;
+    public int stage_level = 3; //단계
+    public Vector2 MousePosition;//클릭한 마우스 위치
+    public int Money = 100; //시작 돈
+    public int life = 10; //목숨
+    public int rabbit_number = 1;//UI 에서 선택한 토끼 종류 결정
+    public float Heal_term = 1; //힐 쿨타임
+    public float Skill_term = 0f; //스킬 쿨타임
+
+    public float Spown_term = 3.0f;//1번 곰이 스폰되는 간격 -> 여기서 수정 불가
+    public int Bear_number = 3;//1번 곰의 수
+    public float Bear_speed = 8.0f;//1번 곰의 속도
+  
+    public float Spown_term_2 = 3.0f;//2번 곰이 스폰되는 간격 -> 여기서 수정 불가
+    public int Bear_2_number = 3; //2번 곰의 수
+    public float Bear_2_speed = 4.0f;//2번 곰의 속도
+
+    public float Spown_term_3 = 3.0f;//3번 곰이 스폰되는 간격 -> 여기서 수정 불가
+    public int Bear_3_number = 3;//3번 곰의 수
+    public float Bear_3_speed = 3.0f; //3번 곰의 속도
+
+    public float Spown_term_4 = 4.0f;//4번 곰이 스폰되는 간격 -> 여기서 수정 불가
+    public int Bear_4_number = 3;//4번 곰의 수
+    public float Bear_4_speed = 3.0f; //4번 곰의 속도
+
+    public float Rabbit_attack_speed = 0.5f; //토끼 공속
+    public float Rabbit2_attack_speed = 2.3f; //토끼2 공속
+    public float Rabbit3_attack_speed = 1f; //토끼3 공속
+
+
+    private void Awake()
+    {
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+  
+    
+}
