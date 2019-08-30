@@ -11,12 +11,16 @@ public class Rabbit_2 : MonoBehaviour
     public List<GameObject> collBear_1 = new List<GameObject>();
     // Start is called before the first frame update
     public float Rabbit2_attack_speed;
+    public float Stun_term;
     float coolTime;
+    float Stun_term2;
     void Start()
     {
         Rabbit2_attack_speed = GameManager.instance.Rabbit2_attack_speed;
         rabbitTr = GetComponent<Transform>();
         coolTime = Rabbit2_attack_speed;
+        Stun_term2 = GameManager.instance.Stun_term;
+        Stun_term = Stun_term2;
     }
     // Update is called once per frame
     void Update()
@@ -32,7 +36,8 @@ public class Rabbit_2 : MonoBehaviour
                     Bear target = collBear_1[i].GetComponent<Bear>();
                     LR_Trun(collBear_1[i]); //좌우 회전(아래 메소드 만들어둠)
                     animator.Play("R2Attack");  //애니메이션 실행. R1Attack 모션이 끝나면 자동으로 R1Stand로 돌아가는 것은 애니메이터에서 구현해둠.
-                    target.Bear1_HP -= 20; //토끼 공격력
+                    target.Bear1_HP -= 45; //토끼 공격력                                      
+                    target.Bear_time = 0f;
                     i = collBear_1.Count;
                     continue;
                 }
@@ -41,7 +46,8 @@ public class Rabbit_2 : MonoBehaviour
                     Bear_2 target_2 = collBear_1[i].GetComponent<Bear_2>();
                     LR_Trun(collBear_1[i]);
                     animator.Play("R2Attack");
-                    target_2.Bear2_HP -= 20; //토끼 공격력
+                    target_2.Bear2_HP -= 45; //토끼 공격력
+                    target_2.Bear_time = 0f;
                     i = collBear_1.Count;
                     continue;
                 }
@@ -50,7 +56,8 @@ public class Rabbit_2 : MonoBehaviour
                     Bear_3 target_3 = collBear_1[i].GetComponent<Bear_3>();
                     LR_Trun(collBear_1[i]);
                     animator.Play("R2Attack");
-                    target_3.Bear3_HP -= 20; //토끼 공격력
+                    target_3.Bear3_HP -= 45; //토끼 공격력
+                    target_3.Bear_time = 0f;
                     i = collBear_1.Count;
                     continue;
                 }
@@ -59,7 +66,8 @@ public class Rabbit_2 : MonoBehaviour
                     Bear_4 target_4 = collBear_1[i].GetComponent<Bear_4>();
                     LR_Trun(collBear_1[i]);
                     animator.Play("R2Attack");
-                    target_4.Bear4_HP -= 20; //토끼 공격력
+                    target_4.Bear4_HP -= 45; //토끼 공격력
+                    target_4.Bear_time = 0f;
                     i = collBear_1.Count;
                     continue;
                 }
@@ -98,4 +106,5 @@ public class Rabbit_2 : MonoBehaviour
             spriteTr.localScale = new Vector2(-1, 1);
         }
     }
+
 }

@@ -12,14 +12,15 @@ public class GameManager : MonoBehaviour
     public int rabbit_number = 1;//UI 에서 선택한 토끼 종류 결정
     public float Heal_term = 1; //힐 쿨타임
     public float Skill_term = 0f; //스킬 쿨타임
+    public float Stun_term = 1.0f;// 스턴 지속시간
 
     public float Spown_term = 3.0f;//1번 곰이 스폰되는 간격 -> 여기서 수정 불가
-    public int Bear_number = 3;//1번 곰의 수
-    public float Bear_speed = 8.0f;//1번 곰의 속도
+    public int Bear_number = 40;//1번 곰의 수
+    public float Bear_speed = 3.8f;//1번 곰의 속도
   
-    public float Spown_term_2 = 3.0f;//2번 곰이 스폰되는 간격 -> 여기서 수정 불가
-    public int Bear_2_number = 3; //2번 곰의 수
-    public float Bear_2_speed = 4.0f;//2번 곰의 속도
+    public float Spown_term_2 = 5.5f;//2번 곰이 스폰되는 간격 -> 여기서 수정 불가
+    public int Bear_2_number = 30; //2번 곰의 수
+    public float Bear_2_speed = 6.0f;//2번 곰의 속도
 
     public float Spown_term_3 = 3.0f;//3번 곰이 스폰되는 간격 -> 여기서 수정 불가
     public int Bear_3_number = 3;//3번 곰의 수

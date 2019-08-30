@@ -56,7 +56,7 @@ public class Spawner : MonoBehaviour
             if ((Fake_Bear2[i]).GetComponent<Bear_2>().Bear2_HP <= 0)
             {
                 Destroy(Fake_Bear2[i].gameObject);
-                GameManager.instance.Money += 20;
+                GameManager.instance.Money += 40;
                 count++;
             }
         }
@@ -132,7 +132,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-6.5f, 7.8f, -4), Quaternion.identity); //곰 2 생성
                 Fake_Bear2.Add(newBear_2);
 
-                GameManager.instance.Spown_term_2 = 3.0f;
+                GameManager.instance.Spown_term_2 = 5.5f;
                 GameManager.instance.Bear_2_number--;//곰 2 리스폰 시간 및 소환 수 처리
 
                 Bear2_numbering++;
@@ -144,7 +144,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(1.58f, 28.63f, -4), Quaternion.identity); //곰 2 생성
                 Fake_Bear2.Add(newBear_2);
 
-                GameManager.instance.Spown_term_2 = 3.0f;
+                GameManager.instance.Spown_term_2 = 5.5f;
                 GameManager.instance.Bear_2_number--;//곰 2 리스폰 시간 및 소환 수 처리
 
                 Bear2_numbering++;
@@ -157,7 +157,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                 Fake_Bear2.Add(newBear_2);
 
-                GameManager.instance.Spown_term_2 = 3.0f;
+                GameManager.instance.Spown_term_2 = 5.5f;
                 GameManager.instance.Bear_2_number--;//곰 2 리스폰 시간 및 소환 수 처리
 
                 Bear2_numbering++;
@@ -168,7 +168,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear_2 = Instantiate(CreateBear_2, new Vector3(-17.45f, -4.04f, -4), Quaternion.identity); // 생성
                 Fake_Bear2.Add(newBear_2);
 
-                GameManager.instance.Spown_term_2 = 3.0f;
+                GameManager.instance.Spown_term_2 = 5.5f;
                 GameManager.instance.Bear_2_number--;//곰 2 리스폰 시간 및 소환 수 처리
 
                 Bear2_numbering++;
@@ -215,7 +215,8 @@ public class Spawner : MonoBehaviour
                 GameManager.instance.Bear_3_number--;
                 Bear3_numbering++;
             }
-            if (GameManager.instance.Spown_term_4 < 0 && GameManager.instance.Bear_4_number > 0)// 리스폰 시간이 0이 되었는지 검사 
+        }
+        if (GameManager.instance.Spown_term_4 < 0 && GameManager.instance.Bear_4_number > 0)// 리스폰 시간이 0이 되었는지 검사 
             {
                 if (GameManager.instance.stage_level == 1)
                 {
@@ -261,6 +262,6 @@ public class Spawner : MonoBehaviour
             }
            
 
-        }
+        
     }
 }

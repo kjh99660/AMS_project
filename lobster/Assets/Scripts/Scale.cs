@@ -55,13 +55,13 @@ public class Scale : MonoBehaviour
                 }
                 if (collBears[i] != null && collBears[i].tag == "Bear_3")
                 {
-                    Bear target = collBears[i].GetComponent<Bear>();
-                    target.Bear1_HP -= 30;
+                    Bear_3 target = collBears[i].GetComponent<Bear_3>();
+                    target.Bear3_HP -= 30;
                 }
                 if (collBears[i] != null && collBears[i].tag == "Bear_4")
                 {
-                    Bear target = collBears[i].GetComponent<Bear>();
-                    target.Bear1_HP -= 30;
+                    Bear_4 target = collBears[i].GetComponent<Bear_4>();
+                    target.Bear4_HP -= 30;
                 }
             }
             GameManager.instance.Skill_term = 45f; //스킬 쿨타임 초기화

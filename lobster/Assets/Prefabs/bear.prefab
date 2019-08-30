@@ -94,6 +94,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
+  Bear_stun_time: 1
+  Bear_time: 0
 --- !u!61 &-6998845212337794762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -118,5 +120,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 2.5}
+  m_Size: {x: 2, y: 2.5}
   m_EdgeRadius: 0
