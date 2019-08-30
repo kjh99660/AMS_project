@@ -2,19 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Direction
-{
-    A, B, C, D
-}
-
-
 public class Bear_3 : MonoBehaviour
 {
     protected int Bear3_hp = 10;
     public Renderer rend;
     public float Bear_stun_time = 1f;//곰 스턴 시간
     public float Bear_time;
-    Direction dir;
+
 
     public int Bear3_HP
     {

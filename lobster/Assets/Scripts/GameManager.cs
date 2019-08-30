@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int stage_level = 3; //단계
+    public int stage = 0;//flag
     public Vector2 MousePosition;//클릭한 마우스 위치
     public int Money = 100; //시작 돈
     public int life = 10; //목숨
@@ -38,7 +39,6 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
-        DontDestroyOnLoad(gameObject);
     }
   
     
