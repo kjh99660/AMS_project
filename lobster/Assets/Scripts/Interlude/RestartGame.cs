@@ -20,9 +20,9 @@ public class RestartGame : MonoBehaviour
 
     public void OnClick_RestartButton()
     {
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
 
     }
 

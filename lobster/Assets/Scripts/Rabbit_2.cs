@@ -18,7 +18,7 @@ public class Rabbit_2 : MonoBehaviour
     {
         Rabbit2_attack_speed = GameManager.instance.Rabbit2_attack_speed;
         rabbitTr = GetComponent<Transform>();
-        coolTime = Rabbit2_attack_speed;
+        coolTime = 0f;
         Stun_term2 = GameManager.instance.Stun_term;
         Stun_term = Stun_term2;
     }

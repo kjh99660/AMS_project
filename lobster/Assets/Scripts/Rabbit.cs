@@ -19,7 +19,7 @@ public class Rabbit : MonoBehaviour
     {
         Rabbit_attack_speed = GameManager.instance.Rabbit_attack_speed;
         rabbitTr = GetComponent<Transform>();
-        coolTime1 = Rabbit_attack_speed;
+        coolTime1 = 0f;
         //HP = GameObject.Find("bear").GetComponent<Bear>();
     }
     // Update is called once per frame
