@@ -7,7 +7,7 @@ public class Camera_1 : MonoBehaviour
 {
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         Time.timeScale = 1f;
 

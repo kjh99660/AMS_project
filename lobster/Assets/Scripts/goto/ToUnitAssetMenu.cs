@@ -8,7 +8,7 @@ public class ToUnitAssetMenu : MonoBehaviour
     public GameObject panel = null;
     void Start()
     {
-        gameObject.SetActive(false);
+        panel.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -19,14 +19,14 @@ public class ToUnitAssetMenu : MonoBehaviour
 
     public void OnClick_MenuOpenButton()
     {
-        if(gameObject.activeSelf == true)
+        if(panel.gameObject.activeSelf == true)
         {
-            gameObject.SetActive(false);
+            panel.gameObject.SetActive(false);
             Debug.Log("꺼짐");
         }
         else
         {
-            gameObject.SetActive(true);
+            panel.gameObject.SetActive(true);
             Debug.Log("켜짐");
         }
 
