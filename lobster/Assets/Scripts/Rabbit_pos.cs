@@ -43,6 +43,7 @@ public class Rabbit_pos : MonoBehaviour
                 rabbit_pos1.SetActive(false);
                 panel.SetActive(false);
                 Debug.Log("2 소환");
+                Destroy(gameObject);
             }
         }
         if(GameManager.instance.rabbit_number == 3)
@@ -54,6 +55,7 @@ public class Rabbit_pos : MonoBehaviour
                 rabbit_pos1.SetActive(false);
                 panel.SetActive(false);
                 Debug.Log("3 소환");
+                Destroy(gameObject);
             }
         }
     }
