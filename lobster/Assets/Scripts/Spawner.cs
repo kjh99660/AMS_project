@@ -56,7 +56,7 @@ public class Spawner : MonoBehaviour
             if ((Fake_Bear2[i]).GetComponent<Bear_2>().Bear2_HP <= 0)
             {
                 Destroy(Fake_Bear2[i].gameObject);
-                GameManager.instance.Money += 40;
+                GameManager.instance.Money += 30;
                 count++;
             }
         }

@@ -12,7 +12,7 @@ public class Finishgame : MonoBehaviour
     void Start()
     {
         startTime = 0.0f;
-        time = startTime;
+        limit = 146f;
         
         gameObject.gameObject.SetActive(false);
     }
@@ -20,14 +20,14 @@ public class Finishgame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-       // Debug.Log("시간 : " + Time.time);  주석처리
+        startTime += Time.deltaTime;
+        //Debug.Log("시간 : " + Time.time); // 주석처리
         StopGame();
     }
     
     void StopGame()
     {
-        if ( GameManager.instance.life <= 0) //패배
+        if ( startTime > limit && GameManager.instance.stage_level == 1) //승리
         {            
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);

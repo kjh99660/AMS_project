@@ -34,7 +34,7 @@ public class Rabbit : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_1")
                 {
                     Bear target = collBear_1[i].GetComponent<Bear>();
-                    target.Bear1_HP -= 10;
+                    target.Bear1_HP -= 20;
                     LR_Trun(collBear_1[i]); //좌우 회전(아래 메소드 만들어둠)
                     animator.Play("R1Attack");  //애니메이션 실행. R1Attack 모션이 끝나면 자동으로 R1Stand로 돌아가는 것은 애니메이터에서 구현해둠.
                     
@@ -42,7 +42,7 @@ public class Rabbit : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_2")
                 {
                     Bear_2 target = collBear_1[i].GetComponent<Bear_2>();
-                    target.Bear2_HP -= 10;
+                    target.Bear2_HP -= 20;
                     LR_Trun(collBear_1[i]);
                     animator.Play("R1Attack");
                     
@@ -50,7 +50,7 @@ public class Rabbit : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_3")
                 {
                     Bear_3 target = collBear_1[i].GetComponent<Bear_3>();
-                    target.Bear3_HP -= 10;
+                    target.Bear3_HP -= 20;
                     LR_Trun(collBear_1[i]);
                     animator.Play("R1Attack");
                    
@@ -58,7 +58,7 @@ public class Rabbit : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_4")
                 {
                     Bear_4 target = collBear_1[i].GetComponent<Bear_4>();
-                    target.Bear4_HP -= 10;                   
+                    target.Bear4_HP -= 20;                   
                     LR_Trun(collBear_1[i]);
                     animator.Play("R1Attack");
                     

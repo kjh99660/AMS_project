@@ -697,7 +697,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -1013,7 +1013,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -1210,156 +1210,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270321004}
   m_CullTransparentMesh: 0
---- !u!1 &278332286
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 278332287}
-  - component: {fileID: 278332291}
-  - component: {fileID: 278332290}
-  - component: {fileID: 278332289}
-  - component: {fileID: 278332288}
-  m_Layer: 5
-  m_Name: Rabbit_pos2 (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &278332287
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278332286}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1076548232}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.21002197, y: -17.77}
-  m_SizeDelta: {x: 2, y: 2}
-  m_Pivot: {x: 0.5000038, y: 0.50000596}
---- !u!114 &278332288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278332286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d072d9d47467804eb9aff7265dd5f8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
-  rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_pos1: {fileID: 1076548231}
-  panel: {fileID: 555242891}
-  position: {x: 0, y: 0, z: 0}
---- !u!114 &278332289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278332286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 278332290}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 278332288}
-        m_MethodName: MakeRabbits
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &278332290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278332286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300038, guid: a4737159e3b8afd448e059965fa20817, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &278332291
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278332286}
-  m_CullTransparentMesh: 0
 --- !u!1 &327614043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,7 +1242,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 15
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1413,7 +1263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -1695,7 +1545,6 @@ Transform:
   m_LocalPosition: {x: 21.815704, y: 16.267017, z: -15.017644}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1091981226}
   - {fileID: 1328086583}
   - {fileID: 1765901971}
   m_Father: {fileID: 0}
@@ -1901,11 +1750,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 18
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.159973, y: -8.86}
+  m_AnchoredPosition: {x: 5.16, y: -12}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5000038, y: 0.50000596}
 --- !u!114 &482853535
@@ -1922,7 +1771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -2070,8 +1919,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0c1d104d4460a246bb34333a1d1cdaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rabbit_3: {fileID: 4787193761888696046, guid: a316fc12e20608a4c96ca344f367b6f1,
-    type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
+  rabbit_pos1: {fileID: 1076548231}
 --- !u!114 &490693312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2116,7 +1965,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 490693311}
-        m_MethodName: Makerabbit
+        m_MethodName: Makerabbit_3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2197,7 +2046,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2218,7 +2067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -2447,156 +2296,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534617907}
   m_CullTransparentMesh: 0
---- !u!1 &536893467
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 536893468}
-  - component: {fileID: 536893472}
-  - component: {fileID: 536893471}
-  - component: {fileID: 536893470}
-  - component: {fileID: 536893469}
-  m_Layer: 5
-  m_Name: Rabbit_pos2 (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &536893468
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536893467}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1076548232}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.159973, y: -14.9}
-  m_SizeDelta: {x: 2, y: 2}
-  m_Pivot: {x: 0.5000038, y: 0.50000596}
---- !u!114 &536893469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536893467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d072d9d47467804eb9aff7265dd5f8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
-  rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_pos1: {fileID: 1076548231}
-  panel: {fileID: 555242891}
-  position: {x: 0, y: 0, z: 0}
---- !u!114 &536893470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536893467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 536893471}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 536893469}
-        m_MethodName: MakeRabbits
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &536893471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536893467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300038, guid: a4737159e3b8afd448e059965fa20817, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &536893472
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536893467}
-  m_CullTransparentMesh: 0
 --- !u!1 &552232464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2743,7 +2442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -3046,7 +2745,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 17
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3067,7 +2766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -3843,156 +3542,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774354840}
   m_CullTransparentMesh: 0
---- !u!1 &863764169
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 863764170}
-  - component: {fileID: 863764174}
-  - component: {fileID: 863764173}
-  - component: {fileID: 863764172}
-  - component: {fileID: 863764171}
-  m_Layer: 5
-  m_Name: Rabbit_pos3 (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &863764170
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863764169}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1076548232}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20.87, y: -20.58}
-  m_SizeDelta: {x: 2, y: 2}
-  m_Pivot: {x: 0.49998665, y: 0.49999523}
---- !u!114 &863764171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863764169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d072d9d47467804eb9aff7265dd5f8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
-  rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_pos1: {fileID: 1076548231}
-  panel: {fileID: 555242891}
-  position: {x: 0, y: 0, z: 0}
---- !u!114 &863764172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863764169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 863764173}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 863764171}
-        m_MethodName: MakeRabbits
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &863764173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863764169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300038, guid: a4737159e3b8afd448e059965fa20817, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &863764174
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863764169}
-  m_CullTransparentMesh: 0
 --- !u!1 &874105796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4538,7 +4087,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 11
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4559,7 +4108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -4688,7 +4237,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 16
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4709,7 +4258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -4904,7 +4453,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4925,7 +4474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -5055,13 +4604,10 @@ RectTransform:
   m_Children:
   - {fileID: 1356602096}
   - {fileID: 552232465}
-  - {fileID: 536893468}
   - {fileID: 156808050}
-  - {fileID: 278332287}
   - {fileID: 1968860285}
   - {fileID: 2129466259}
   - {fileID: 225201080}
-  - {fileID: 863764170}
   - {fileID: 1957612965}
   - {fileID: 2117605352}
   - {fileID: 945995692}
@@ -5227,50 +4773,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1091981225
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1091981226}
-  - component: {fileID: 1091981227}
-  m_Layer: 0
-  m_Name: toUnitAssetMenu
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1091981226
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1091981225}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.224007, y: -12.94743, z: -62.85626}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 351115351}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1091981227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1091981225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dccb131d9fa8b7e46a16f4188af630b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panel: {fileID: 0}
 --- !u!1 &1092522358
 GameObject:
   m_ObjectHideFlags: 0
@@ -8327,7 +7829,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 351115351}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1328086584
 MonoBehaviour:
@@ -8526,7 +8028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -8796,6 +8298,7 @@ GameObject:
   - component: {fileID: 1386920603}
   - component: {fileID: 1386920605}
   - component: {fileID: 1386920606}
+  - component: {fileID: 1386920607}
   m_Layer: 0
   m_Name: Scale
   m_TagString: Untagged
@@ -8811,8 +8314,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1386920601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: -30, z: -3.8679605}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -24.75, y: -14.87, z: -3.8679605}
+  m_LocalScale: {x: 1.5445111, y: 1.436022, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -8829,6 +8332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3957daf694b058418bfe7b176b63ac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   collBears: []
   image: {fileID: 2037637302}
 --- !u!212 &1386920604
@@ -8892,7 +8396,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.10280836, y: 0.5083823}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8903,7 +8407,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7, y: 7}
+  m_Size: {x: 5.7251797, y: 5.9832354}
   m_EdgeRadius: 0
 --- !u!50 &1386920606
 Rigidbody2D:
@@ -8926,6 +8430,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!111 &1386920607
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386920601}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 027a9beb5e680864e91565f56f493b33, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1404467613
 GameObject:
   m_ObjectHideFlags: 0
@@ -11814,7 +11333,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 351115351}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1765901972
 MonoBehaviour:
@@ -12083,7 +11602,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12104,7 +11623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -12495,7 +12014,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12516,7 +12035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -12777,7 +12296,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12798,7 +12317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -13042,7 +12561,7 @@ MonoBehaviour:
   stage_level: 4
   stage: 0
   MousePosition: {x: 0, y: 0}
-  Money: 100
+  Money: 600
   life: 10
   rabbit_number: 1
   Heal_term: 1
@@ -13345,7 +12864,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 10
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13366,7 +12885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}
@@ -13495,7 +13014,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1076548232}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13516,7 +13035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit: {fileID: 1220202990634556, guid: 7ea68c8f54b207345a012788d95f7c55, type: 3}
   rabbit_2: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
-  rabbit_3: {fileID: 1148403645578688, guid: 39d6e84819feadf439f85989d074db2f, type: 3}
+  rabbit_3: {fileID: 1929991981602730, guid: f660705c53ea6ee439b618b5a3255053, type: 3}
   rabbit_pos1: {fileID: 1076548231}
   panel: {fileID: 555242891}
   position: {x: 0, y: 0, z: 0}

@@ -80,7 +80,7 @@ public class Bear_3 : MonoBehaviour
             transform.Translate(0, GameManager.instance.Bear_3_speed * Time.deltaTime * Bear_time, 0);
             yield return new WaitForEndOfFrame();
         }
-        while (transform.position.x <= 37.1f)
+        while (transform.position.x <= 37.5f)
         {
             transform.Translate(GameManager.instance.Bear_3_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
