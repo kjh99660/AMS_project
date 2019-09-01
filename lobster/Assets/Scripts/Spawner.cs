@@ -67,7 +67,7 @@ public class Spawner : MonoBehaviour
             if ((Fake_Bear3[i]).GetComponent<Bear_3>().Bear3_HP <= 0)
             {
                 Destroy(Fake_Bear3[i].gameObject);
-                GameManager.instance.Money += 20;
+                GameManager.instance.Money += 35;
                 count++;
             }
         }
@@ -182,7 +182,7 @@ public class Spawner : MonoBehaviour
                 Fake_Bear3.Add(newBear_3);
 
                 GameManager.instance.Spown_term_3 = 3.0f;
-                GameManager.instance.Bear_3_number--;//곰 1 리스폰 시간 및 소환 수 처리
+                GameManager.instance.Bear_3_number--;//곰 3 리스폰 시간 및 소환 수 처리
 
                 Bear3_numbering++;
             }
@@ -191,8 +191,8 @@ public class Spawner : MonoBehaviour
                 GameObject newBear_3 = Instantiate(CreateBear_3, new Vector3(1.58f, 28.63f, -4), Quaternion.identity); //곰 3 생성
                 Fake_Bear3.Add(newBear_3);
 
-                GameManager.instance.Spown_term_3 = 3.0f;
-                GameManager.instance.Bear_3_number--;//곰 1 리스폰 시간 및 소환 수 처리
+                GameManager.instance.Spown_term_3 = 4.5f;
+                GameManager.instance.Bear_3_number--;//곰 3 리스폰 시간 및 소환 수 처리
 
                 Bear3_numbering++;
 

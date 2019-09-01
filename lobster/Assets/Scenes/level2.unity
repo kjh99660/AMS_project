@@ -4375,9 +4375,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CreateBear: {fileID: 483293239535299063, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
     type: 3}
-  CreateBear_2: {fileID: 3112119957233375642, guid: 913d35ae0c7918042a6d81278e6345e8,
+  CreateBear_2: {fileID: 847899745501818965, guid: a3ac6eee15fcc3d488462bba1f3f2cee,
     type: 3}
-  CreateBear_3: {fileID: 847899745501818965, guid: a3ac6eee15fcc3d488462bba1f3f2cee,
+  CreateBear_3: {fileID: 3112119957233375642, guid: 913d35ae0c7918042a6d81278e6345e8,
     type: 3}
   CreateBear_4: {fileID: 4973955225439805706, guid: cd5057190d04cb54492d66d08d4807cc,
     type: 3}
@@ -12860,23 +12860,23 @@ MonoBehaviour:
   stage_level: 2
   stage: 0
   MousePosition: {x: 0, y: 0}
-  Money: 1000
-  life: 10
+  Money: 260
+  life: 500
   rabbit_number: 1
   Heal_term: 1
   Skill_term: 0
   Stun_term: 1
   Spown_term: 3
-  Bear_number: 4
-  Bear_speed: 6
-  Spown_term_2: 3
-  Bear_2_number: 3
-  Bear_2_speed: 20
-  Spown_term_3: 3
-  Bear_3_number: 3
-  Bear_3_speed: 3
+  Bear_number: 40
+  Bear_speed: 3.9
+  Spown_term_2: 17
+  Bear_2_number: 20
+  Bear_2_speed: 6
+  Spown_term_3: 19
+  Bear_3_number: 24
+  Bear_3_speed: 4.9
   Spown_term_4: 3
-  Bear_4_number: 3
+  Bear_4_number: 0
   Bear_4_speed: 3
   Rabbit_attack_speed: 1
   Rabbit2_attack_speed: 2.3

@@ -6,8 +6,9 @@ public class Bear : MonoBehaviour
 {
     protected int Bear1_hp = 120;
     public Renderer rend ;
-    public float Bear_stun_time = 1f;//곰 스턴 시간
+    public float Bear_stun_time = 0.7f;//곰 스턴 시간
     public float Bear_time;
+    public float speed_up;
 
     public int Bear1_HP
     {
@@ -23,6 +24,7 @@ public class Bear : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        speed_up = GameManager.instance.Speed_up;
         Bear_time = 1f;
         rend = GetComponent<Renderer>();
         if (GameManager.instance.stage_level == 1)
@@ -126,7 +128,7 @@ public class Bear : MonoBehaviour
             }
             while (transform.position.x <= 21.3f)
             {
-                transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime * 1.3f * Bear_time, 0, 0);
+                transform.Translate((GameManager.instance.Bear_speed * Time.deltaTime * Bear_time) + speed_up, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
             while (transform.position.x <= 26.4f)
@@ -161,7 +163,7 @@ public class Bear : MonoBehaviour
             }
             while (transform.position.x >= 3.36f)
             {
-                transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime * 1.3f * Bear_time, 0, 0);
+                transform.Translate((-GameManager.instance.Bear_speed * Time.deltaTime  * Bear_time )+speed_up, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
             while (transform.position.x >= -0.62f)
@@ -341,7 +343,7 @@ public class Bear : MonoBehaviour
         }
         while (transform.position.y <= -10.22f)
         {
-            transform.Translate(0, GameManager.instance.Bear_speed * Time.deltaTime * 1.3f * Bear_time, 0);
+            transform.Translate(0, speed_up +(GameManager.instance.Bear_speed * Time.deltaTime  * Bear_time), 0);
             yield return new WaitForEndOfFrame();
         }
         while (transform.position.y <= -4.15f)
@@ -367,7 +369,7 @@ public class Bear : MonoBehaviour
     //transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed* Time.deltaTime);
     void Update()
     {
-        if(GameManager.instance.Heal_term <=0 && this.Bear1_hp < 10)
+        if(GameManager.instance.Heal_term <=0 && this.Bear1_hp < 10)//4단계에서만 적용
         {
             Bear1_hp++;
         }
@@ -377,7 +379,7 @@ public class Bear : MonoBehaviour
         }
         if(Bear_stun_time < 0)
         {
-            Bear_stun_time = 1f;
+            Bear_stun_time = 0.7f;
             Bear_time = 1f;
         }
     }

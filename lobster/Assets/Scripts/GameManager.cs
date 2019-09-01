@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public float Heal_term = 1; //힐 쿨타임
     public float Skill_term = 0f; //스킬 쿨타임
     public float Stun_term = 1.0f;// 스턴 지속시간
+    public float Speed_up = 2; //증가하는 속도값
 
     public float Spown_term = 3.0f;//1번 곰이 스폰되는 간격 -> 여기서 수정 불가
     public int Bear_number = 40;//1번 곰의 수

@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rend: {fileID: 0}
-  Bear_stun_time: 1
+  Bear_stun_time: 0.7
   Bear_time: 0
 --- !u!61 &-6998845212337794762
 BoxCollider2D:
