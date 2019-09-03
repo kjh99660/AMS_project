@@ -6,12 +6,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public int stage_level = 3; //단계
-    public int stage = 0;//flag
     public Vector2 MousePosition;//클릭한 마우스 위치
     public int Money = 100; //시작 돈
     public int life = 10; //목숨
     public int rabbit_number = 1;//UI 에서 선택한 토끼 종류 결정
-    public float Heal_term = 1; //힐 쿨타임
+    public float Heal_term = 0.1f; //힐 쿨타임
     public float Skill_term = 0f; //스킬 쿨타임
     public float Stun_term = 1.0f;// 스턴 지속시간
     public float Speed_up = 2; //증가하는 속도값
