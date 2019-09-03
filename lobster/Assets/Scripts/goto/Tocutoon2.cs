@@ -17,7 +17,7 @@ public class Tocutoon2 : MonoBehaviour
     }
     public void SceneChange()
     {
-        Stage++;
+
         SceneManager.LoadScene("CutToon2");
         
 
