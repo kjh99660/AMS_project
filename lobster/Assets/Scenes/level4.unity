@@ -13030,8 +13030,8 @@ MonoBehaviour:
   stage_level: 4
   stage: 0
   MousePosition: {x: 0, y: 0}
-  Money: 600
-  life: 10
+  Money: 300
+  life: 6
   rabbit_number: 1
   Heal_term: 1
   Skill_term: 0
@@ -13039,16 +13039,16 @@ MonoBehaviour:
   Speed_up: 2
   Spown_term: 3
   Bear_number: 3
-  Bear_speed: 8
+  Bear_speed: 3.9
   Spown_term_2: 4
   Bear_2_number: 3
-  Bear_2_speed: 4
+  Bear_2_speed: 6
   Spown_term_3: 3
   Bear_3_number: 3
-  Bear_3_speed: 3
+  Bear_3_speed: 4.9
   Spown_term_4: 3
   Bear_4_number: 3
-  Bear_4_speed: 3
+  Bear_4_speed: 5.5
   Rabbit_attack_speed: 0.5
   Rabbit2_attack_speed: 2.3
   Rabbit3_attack_speed: 1

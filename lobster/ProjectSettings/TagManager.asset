@@ -9,6 +9,7 @@ TagManager:
   - Background
   - Bear_3
   - Bear_4
+  - Bear_boss
   layers:
   - Default
   - TransparentFX

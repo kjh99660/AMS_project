@@ -38,11 +38,13 @@ public class Bear_3 : MonoBehaviour
         }
         if (GameManager.instance.stage_level == 3)
         {
+            Bear3_hp += 10;
             StartCoroutine(Move_3());
         }
         if (GameManager.instance.stage_level == 4)
         {
-            StartCoroutine(Move_4());
+            Bear3_hp += 40;
+            StartCoroutine(Move_4());//곰 4안함 , 체력회복 안바꿈
         }
     }
 
