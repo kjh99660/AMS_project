@@ -5,19 +5,56 @@ using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
-
     public static SoundManager instance = null;
+    public static AudioClip rab1Sound, rab2Sound, rab3Sound, bearDeathSound;
+    public static AudioClip endSound;
+
+    static AudioSource audioSrc;
+
+    private void Start()
+    {
+        rab1Sound = Resources.Load<AudioClip>("rab1");
+        rab2Sound = Resources.Load<AudioClip>("rab2");
+        rab3Sound = Resources.Load<AudioClip>("rab3");
+        bearDeathSound = Resources.Load<AudioClip>("bearDeath");
+
+        audioSrc = GetComponent<AudioSource>();
+
+    }
 
     //초기화
-    void Awake()
+    //void Awake()
+    //{
+    //    if (instance == null)
+    //        instance = this;
+    //    else if (instance != this)
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //    DontDestroyOnLoad(gameObject);
+    //}
+
+
+
+    public static void PlaySound(string clip)
     {
-        if (instance == null)
-            instance = this;
-        else if (instance != this)
+        switch (clip)
         {
-            Destroy(gameObject);
+            case "rab1":
+                audioSrc.PlayOneShot(rab1Sound);
+                break;
+            case "rab2":
+                audioSrc.PlayOneShot(rab2Sound);
+                break;
+            case "rab3":
+                audioSrc.PlayOneShot(rab3Sound);
+                break;
+            case "bearDeath":
+                audioSrc.PlayOneShot(bearDeathSound);
+                break;
+
+
         }
-        DontDestroyOnLoad(gameObject);
     }
 
 

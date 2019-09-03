@@ -12,9 +12,9 @@ public class bgmSlider : MonoBehaviour
     
     private void Start()
     {
-  //      Vol = PlayerPrefs.GetFloat("backvol", 1f);
-  //      Volume.value = Vol;
-    //    Audio.volume = Volume.value;
+        Vol = 1f;
+        Volume.value = Vol;
+        Audio.volume = Volume.value;
 
     }
 
@@ -27,8 +27,8 @@ public class bgmSlider : MonoBehaviour
     public void SoundSlider()
     {
         
-       // Audio.volume = Volume.value;
-       // Vol = Volume.value;
+        Audio.volume = Volume.value;
+        Vol = Volume.value;
         PlayerPrefs.SetFloat("Vol", Vol);
     }
 

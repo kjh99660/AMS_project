@@ -31,6 +31,7 @@ public class Rabbit_3 : MonoBehaviour
         {
             for (int i = 0; i < collBear_1.Count; i++)
             {
+                SoundManager.PlaySound("rab1");
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_1")
                 {
                     Bear target = collBear_1[i].GetComponent<Bear>();
