@@ -32,6 +32,10 @@ public class GameManager : MonoBehaviour
     public int Bear_4_number = 3;//4번 곰의 수
     public float Bear_4_speed = 3.0f; //4번 곰의 속도
 
+    public float Bear_b_speed = 4.0f;// 보스곰 속도
+    public int Bear_b_number = 1; //보스곰 수
+    public float Spown_term_b = 205f; //보스곰 스폰 간격
+
     public float Rabbit_attack_speed = 1.35f; //토끼 공속
     public float Rabbit2_attack_speed = 2f; //토끼2 공속
     public float Rabbit3_attack_speed = 1.6f; //토끼3 공속

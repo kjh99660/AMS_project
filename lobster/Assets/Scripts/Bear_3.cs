@@ -371,7 +371,7 @@ public class Bear_3 : MonoBehaviour
     //transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed* Time.deltaTime);
     void Update()
     {
-        if (GameManager.instance.Heal_term <= 0 && this.Bear3_hp < 10)
+        if (GameManager.instance.Heal_term <= 0 && this.Bear3_hp < 260)
         {
             Bear3_hp++;
         }

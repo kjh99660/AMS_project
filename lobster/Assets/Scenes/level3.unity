@@ -431,7 +431,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 139790227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e67047df3de6b444ca757d0b9a06b2d0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c2cf52926366d247b398badceb9c173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &139790232
@@ -454,7 +454,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0467b8415c771fb4494e67162070dc55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c567773bb0c08f84d95a5c35f89688d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1349,7 +1349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &352549366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1934,14 +1934,17 @@ MonoBehaviour:
     type: 3}
   CreateBear_4: {fileID: 4973955225439805706, guid: cd5057190d04cb54492d66d08d4807cc,
     type: 3}
+  CreateBear_5: {fileID: 0}
   Fake_Bear1: []
   Fake_Bear2: []
   Fake_Bear3: []
   Fake_Bear4: []
+  Fake_Bear5: []
   Bear1_numbering: 0
   Bear2_numbering: 0
   Bear3_numbering: 0
   Bear4_numbering: 0
+  Bear5_numbering: 0
   count: 0
 --- !u!4 &531386135
 Transform:
@@ -3433,7 +3436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   startTime: 0
-  gameObject: {fileID: 139790227}
+  gameObject: {fileID: 1371694465}
 --- !u!114 &809243182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3448,7 +3451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 0
   startTime: 0
-  gameObject: {fileID: 1371694465}
+  gameObject: {fileID: 139790227}
 --- !u!1 &852899507
 GameObject:
   m_ObjectHideFlags: 0
@@ -12782,9 +12785,12 @@ MonoBehaviour:
   Spown_term_4: 20
   Bear_4_number: 35
   Bear_4_speed: 5.5
-  Rabbit_attack_speed: 0.5
-  Rabbit2_attack_speed: 2.3
-  Rabbit3_attack_speed: 1
+  Bear_b_speed: 4
+  Bear_b_number: 1
+  Spown_term_b: 205
+  Rabbit_attack_speed: 1.35
+  Rabbit2_attack_speed: 2
+  Rabbit3_attack_speed: 1.6
 --- !u!4 &1688635816
 Transform:
   m_ObjectHideFlags: 0

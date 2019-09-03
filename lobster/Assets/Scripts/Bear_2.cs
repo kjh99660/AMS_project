@@ -372,7 +372,7 @@ public class Bear_2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.Heal_term <= 0 && this.Bear2_hp < 10)
+        if (GameManager.instance.Heal_term <= 0 && this.Bear2_hp < 190)
         {
             Bear2_hp++;
         }

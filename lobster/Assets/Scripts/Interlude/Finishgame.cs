@@ -12,9 +12,10 @@ public class Finishgame : MonoBehaviour
     void Start()
     {
         startTime = 0.0f;
-        if(GameManager.instance.stage_level == 1) limit = 146f;
-        if(GameManager.instance.stage_level == 2) limit = 148f;
-        if(GameManager.instance.stage_level == 3) limit = 227f;
+        if (GameManager.instance.stage_level == 1) limit = 146f;
+        if (GameManager.instance.stage_level == 2) limit = 148f;
+        if (GameManager.instance.stage_level == 3) limit = 227f;
+        if (GameManager.instance.stage_level == 4) limit = 230f;
 
         gameObject.gameObject.SetActive(false);
     }

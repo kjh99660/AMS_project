@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutToon3.unity
     guid: d4d1edfc82a33f7478f4e3bf0a73b719
+  - enabled: 1
+    path: Assets/Scenes/CutToon2.unity
+    guid: 97a3f837dacc05142b76710ef17eef2a
+  - enabled: 1
+    path: Assets/Scenes/CutToon4.unity
+    guid: e96c5d14b9462dd4abe723ab9aae4dba
   m_configObjects: {}
