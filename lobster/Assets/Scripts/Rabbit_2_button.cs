@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Rabbit_2_button : MonoBehaviour
 {
-    public GameObject rabbit = null;
     public GameObject rabbit_pos1 = null;
+    public GameObject rabbit_help2 = null;
     
     // Start is called before the first frame update
     void Start()
@@ -16,6 +16,7 @@ public class Rabbit_2_button : MonoBehaviour
     {
         GameManager.instance.rabbit_number = 2; //토끼번호 2
         rabbit_pos1.SetActive(true);
+        rabbit_help2.SetActive(true);
         //Instantiate(rabbit_2, new Vector3(GameManager.instance.MousePosition.x, GameManager.instance.MousePosition.y, 1), Quaternion.identity);
     }
 

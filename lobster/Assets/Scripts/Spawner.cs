@@ -105,8 +105,8 @@ public class Spawner : MonoBehaviour
             }
             if (GameManager.instance.stage_level == 3)
             {
-                GameObject newBear_2 = Instantiate(CreateBear, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
-                Fake_Bear1.Add(newBear_2);
+                GameObject newBear = Instantiate(CreateBear, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
+                Fake_Bear1.Add(newBear);
 
                 GameManager.instance.Spown_term = 3.0f;// 리스폰시간 초기화
                 GameManager.instance.Bear_number--;
@@ -115,8 +115,8 @@ public class Spawner : MonoBehaviour
             }
             if (GameManager.instance.stage_level == 4)
             {
-                GameObject newBear_2 = Instantiate(CreateBear, new Vector3(-17.45f, -4.04f, -4), Quaternion.identity); // 생성
-                Fake_Bear1.Add(newBear_2);
+                GameObject newBear = Instantiate(CreateBear, new Vector3(-17.45f, -4.04f, -4), Quaternion.identity); // 생성
+                Fake_Bear1.Add(newBear);
 
                 GameManager.instance.Spown_term = 3.0f;// 리스폰시간 초기화
                 GameManager.instance.Bear_number--;

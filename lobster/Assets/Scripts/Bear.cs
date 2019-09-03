@@ -379,7 +379,7 @@ public class Bear : MonoBehaviour
         }
         if(Bear_stun_time < 0)
         {
-            Bear_stun_time = 0.7f;
+            Bear_stun_time = 0.8f;
             Bear_time = 1f;
         }
     }

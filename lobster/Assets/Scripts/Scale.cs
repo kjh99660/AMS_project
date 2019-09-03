@@ -48,25 +48,25 @@ public class Scale : MonoBehaviour
                 {
                     Bear target = collBears[i].GetComponent<Bear>();
                     target.Bear1_HP -= 160;
-                    animator.Play("Bomb");
+                    //animator.Play("Bomb");
                 }
                 if (collBears[i] != null && collBears[i].tag == "Bear_2")
                 {
                     Bear_2 target_2 = collBears[i].GetComponent<Bear_2>();
                     target_2.Bear2_HP -= 160;
-                    animator.Play("Bomb");
+                    //animator.Play("Bomb");
                 }
                 if (collBears[i] != null && collBears[i].tag == "Bear_3")
                 {
                     Bear_3 target = collBears[i].GetComponent<Bear_3>();
                     target.Bear3_HP -= 160;
-                    animator.Play("Bomb");
+                    //animator.Play("Bomb");
                 }
                 if (collBears[i] != null && collBears[i].tag == "Bear_4")
                 {
                     Bear_4 target = collBears[i].GetComponent<Bear_4>();
                     target.Bear4_HP -= 160;
-                    animator.Play("Bomb");
+                    //animator.Play("Bomb");
                 }
             }
             GameManager.instance.Skill_term = 45f; //스킬 쿨타임 초기화

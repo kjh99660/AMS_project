@@ -6,8 +6,15 @@ public class ToUnitAssetMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject panel = null;
+    public GameObject Rabbit_pos = null;
+    public GameObject Rabbit_ex1 = null;
+    public GameObject Rabbit_ex2 = null;
+    public GameObject Rabbit_ex3 = null;
+
+
     void Start()
     {
+        
         panel.gameObject.SetActive(false);
     }
 
@@ -19,9 +26,15 @@ public class ToUnitAssetMenu : MonoBehaviour
 
     public void OnClick_MenuOpenButton()
     {
-        if(panel.gameObject.activeSelf == true)
+        if (panel.gameObject.activeSelf == true )
         {
             panel.gameObject.SetActive(false);
+            Rabbit_pos.gameObject.SetActive(false);
+            Rabbit_ex1.gameObject.SetActive(false);
+            Rabbit_ex2.gameObject.SetActive(false);
+            if(GameManager.instance.stage_level != 1)
+            Rabbit_ex3.gameObject.SetActive(false);
+
             Debug.Log("꺼짐");
         }
         else
