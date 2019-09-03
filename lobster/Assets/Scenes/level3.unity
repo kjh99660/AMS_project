@@ -1375,7 +1375,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -330.15, y: -182.17}
+  m_AnchoredPosition: {x: -353.84, y: -168.96}
   m_SizeDelta: {x: -697.705, y: -394.039}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &337868471
@@ -6656,7 +6656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -330.45, y: -174.44}
+  m_AnchoredPosition: {x: -354.4, y: -168.9}
   m_SizeDelta: {x: -697.705, y: -394.161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1402320845
@@ -11632,7 +11632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -330.15, y: -189.25}
+  m_AnchoredPosition: {x: -354.4, y: -169.02}
   m_SizeDelta: {x: -697.705, y: -394.161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549883389
@@ -12739,25 +12739,25 @@ MonoBehaviour:
   stage_level: 3
   stage: 0
   MousePosition: {x: 0, y: 0}
-  Money: 100
-  life: 1
+  Money: 300
+  life: 6
   rabbit_number: 1
   Heal_term: 1
   Skill_term: 0
   Stun_term: 1
   Speed_up: 2
   Spown_term: 3
-  Bear_number: 3
-  Bear_speed: 4
-  Spown_term_2: 4
-  Bear_2_number: 3
-  Bear_2_speed: 5
-  Spown_term_3: 3
-  Bear_3_number: 3
-  Bear_3_speed: 3
-  Spown_term_4: 3
-  Bear_4_number: 3
-  Bear_4_speed: 3
+  Bear_number: 30
+  Bear_speed: 3.9
+  Spown_term_2: 19
+  Bear_2_number: 32
+  Bear_2_speed: 6
+  Spown_term_3: 21
+  Bear_3_number: 37
+  Bear_3_speed: 4.9
+  Spown_term_4: 20
+  Bear_4_number: 35
+  Bear_4_speed: 5.5
   Rabbit_attack_speed: 0.5
   Rabbit2_attack_speed: 2.3
   Rabbit3_attack_speed: 1

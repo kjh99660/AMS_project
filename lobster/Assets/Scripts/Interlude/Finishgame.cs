@@ -12,8 +12,10 @@ public class Finishgame : MonoBehaviour
     void Start()
     {
         startTime = 0.0f;
-        limit = 146f;
-        
+        if(GameManager.instance.stage_level == 1) limit = 146f;
+        if(GameManager.instance.stage_level == 2) limit = 148f;
+        if(GameManager.instance.stage_level == 3) limit = 227f;
+
         gameObject.gameObject.SetActive(false);
     }
 
@@ -21,13 +23,13 @@ public class Finishgame : MonoBehaviour
     void Update()
     {
         startTime += Time.deltaTime;
-        //Debug.Log("시간 : " + Time.time); // 주석처리
+        Debug.Log("시간 : " + Time.time); // 주석처리
         StopGame();
     }
     
     void StopGame()
     {
-        if ( startTime > limit && GameManager.instance.stage_level == 1) //승리
+        if ( startTime > limit) //승리
         {            
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);

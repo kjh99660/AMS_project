@@ -2196,7 +2196,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -323.22998, y: -184.13}
+  m_AnchoredPosition: {x: -344.55, y: -171.94}
   m_SizeDelta: {x: -697.705, y: -394.039}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420224189
@@ -3101,7 +3101,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -323.22998, y: -176.90001}
+  m_AnchoredPosition: {x: -344.55, y: -172}
   m_SizeDelta: {x: -697.705, y: -394.161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &572318255
@@ -10272,7 +10272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -323.23, y: -191.2}
+  m_AnchoredPosition: {x: -345.1, y: -171.88}
   m_SizeDelta: {x: -697.705, y: -394.161}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1493200899
@@ -13254,7 +13254,7 @@ MonoBehaviour:
   stage: 0
   MousePosition: {x: 0, y: 0}
   Money: 260
-  life: 500
+  life: 7
   rabbit_number: 1
   Heal_term: 1
   Skill_term: 0

@@ -34,7 +34,7 @@ public class Spawner : MonoBehaviour
             if ((Fake_Bear4[i]).GetComponent<Bear_4>().Bear4_HP <= 0)
             {
                 Destroy(Fake_Bear4[i].gameObject);
-                GameManager.instance.Money += 20;
+                GameManager.instance.Money += 40;
                 count++;
             }
         }
@@ -108,7 +108,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear = Instantiate(CreateBear, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                 Fake_Bear1.Add(newBear);
 
-                GameManager.instance.Spown_term = 3.0f;// 리스폰시간 초기화
+                GameManager.instance.Spown_term = 3.5f;// 리스폰시간 초기화
                 GameManager.instance.Bear_number--;
                 Bear1_numbering++;
                 
@@ -202,7 +202,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear_3 = Instantiate(CreateBear_3, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                 Fake_Bear3.Add(newBear_3);
 
-                GameManager.instance.Spown_term_3 = 3.0f;// 리스폰시간 초기화
+                GameManager.instance.Spown_term_3 = 4.5f;// 리스폰시간 초기화
                 GameManager.instance.Bear_3_number--;
                 Bear3_numbering++;
             }
@@ -245,7 +245,7 @@ public class Spawner : MonoBehaviour
                     GameObject newBear_4 = Instantiate(CreateBear_4, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                     Fake_Bear4.Add(newBear_4);
 
-                    GameManager.instance.Spown_term_4 = 3.0f;// 리스폰시간 초기화
+                    GameManager.instance.Spown_term_4 = 5.5f;// 리스폰시간 초기화
                     GameManager.instance.Bear_4_number--;
                     Bear4_numbering++;
                 }
