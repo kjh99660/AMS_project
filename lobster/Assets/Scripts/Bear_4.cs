@@ -128,7 +128,7 @@ public class Bear_4 : MonoBehaviour
             }
             while (transform.position.x <= 21.3f)
             {
-                transform.Translate((GameManager.instance.Bear_speed * Time.deltaTime * Bear_time) + speed_up, 0, 0);
+                transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime * Bear_time * speed_up, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
             while (transform.position.x <= 26.4f)
@@ -163,7 +163,7 @@ public class Bear_4 : MonoBehaviour
             }
             while (transform.position.x >= 3.36f)
             {
-                transform.Translate((-GameManager.instance.Bear_speed * Time.deltaTime * Bear_time) + speed_up, 0, 0);
+                transform.Translate(-GameManager.instance.Bear_speed * Time.deltaTime * Bear_time * speed_up, 0, 0);
                 yield return new WaitForEndOfFrame();
             }
             while (transform.position.x >= -0.62f)
@@ -343,7 +343,7 @@ public class Bear_4 : MonoBehaviour
         }
         while (transform.position.y <= -10.22f)
         {
-            transform.Translate(0, speed_up + (GameManager.instance.Bear_speed * Time.deltaTime * Bear_time), 0);
+            transform.Translate(0, speed_up * GameManager.instance.Bear_speed * Time.deltaTime * Bear_time, 0);
             yield return new WaitForEndOfFrame();
         }
         while (transform.position.y <= -4.15f)
