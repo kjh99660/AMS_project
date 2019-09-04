@@ -466,6 +466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_help3: {fileID: 1493200897}
   rabbit_pos1: {fileID: 256649746}
+  rabbit_help2: {fileID: 420224187}
+  rabbit_help1: {fileID: 572318253}
 --- !u!114 &46496462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1985,6 +1987,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_help1: {fileID: 572318253}
   rabbit_pos1: {fileID: 256649746}
+  rabbit_help2: {fileID: 420224187}
+  rabbit_help3: {fileID: 1493200897}
 --- !u!114 &337384743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10583,6 +10587,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_pos1: {fileID: 256649746}
   rabbit_help2: {fileID: 420224187}
+  rabbit_help1: {fileID: 572318253}
+  rabbit_help3: {fileID: 1493200897}
 --- !u!114 &1481414084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13348,7 +13354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stage_level: 2
-  stage: 0
   MousePosition: {x: 0, y: 0}
   Money: 260
   life: 7

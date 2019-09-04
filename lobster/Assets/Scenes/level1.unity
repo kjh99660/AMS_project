@@ -864,6 +864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_pos1: {fileID: 2100849331}
   rabbit_help2: {fileID: 1675061458}
+  rabbit_help1: {fileID: 521441441}
+  rabbit_help3: {fileID: 1580505783}
 --- !u!114 &245324204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,14 +2228,17 @@ MonoBehaviour:
     type: 3}
   CreateBear_4: {fileID: 4973955225439805706, guid: cd5057190d04cb54492d66d08d4807cc,
     type: 3}
+  CreateBear_5: {fileID: 0}
   Fake_Bear1: []
   Fake_Bear2: []
   Fake_Bear3: []
   Fake_Bear4: []
+  Fake_Bear5: []
   Bear1_numbering: 0
   Bear2_numbering: 0
   Bear3_numbering: 0
   Bear4_numbering: 0
+  Bear5_numbering: 0
   count: 0
 --- !u!4 &524670800
 Transform:
@@ -2649,6 +2654,7 @@ RectTransform:
   - {fileID: 137488295}
   - {fileID: 521441442}
   - {fileID: 1675061459}
+  - {fileID: 1580505784}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8192,6 +8198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_help1: {fileID: 521441441}
   rabbit_pos1: {fileID: 2100849331}
+  rabbit_help2: {fileID: 1675061458}
+  rabbit_help3: {fileID: 1580505783}
 --- !u!1 &1257661486
 GameObject:
   m_ObjectHideFlags: 0
@@ -10478,6 +10486,160 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560489436}
   m_CullTransparentMesh: 0
+--- !u!1 &1580505783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1580505784}
+  - component: {fileID: 1580505786}
+  - component: {fileID: 1580505785}
+  m_Layer: 5
+  m_Name: Ex_R3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1580505784
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580505783}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1581938757}
+  m_Father: {fileID: 686417808}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -337.6, y: -180.95}
+  m_SizeDelta: {x: -697.705, y: -394.161}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1580505785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580505783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7411765}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1580505786
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580505783}
+  m_CullTransparentMesh: 0
+--- !u!1 &1581938756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581938757}
+  - component: {fileID: 1581938759}
+  - component: {fileID: 1581938758}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1581938757
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581938756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1580505784}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000000029849, y: 0.00000023842}
+  m_SizeDelta: {x: 723.825, y: 280.26}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1581938758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581938756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 120
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\uACF5\uACA9 \uBC94\uC704: \uC8FC\uC704 1\uCE78,\n\uAD11\uC5ED\n\uACF5\uACA9\uB825:35"
+--- !u!222 &1581938759
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581938756}
+  m_CullTransparentMesh: 0
 --- !u!1 &1599800853
 GameObject:
   m_ObjectHideFlags: 0
@@ -11392,7 +11554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stage_level: 1
-  stage: 0
   MousePosition: {x: 0, y: 0}
   Money: 200
   life: 7
@@ -11413,6 +11574,9 @@ MonoBehaviour:
   Spown_term_4: 4
   Bear_4_number: 0
   Bear_4_speed: 3
+  Bear_b_speed: 4
+  Bear_b_number: 1
+  Spown_term_b: 205
   Rabbit_attack_speed: 1.35
   Rabbit2_attack_speed: 2
   Rabbit3_attack_speed: 1.6

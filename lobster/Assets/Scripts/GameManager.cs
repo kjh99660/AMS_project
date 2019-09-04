@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public int stage_level = 3; //단계
     public Vector2 MousePosition;//클릭한 마우스 위치
+    public bool skill = false; //스킬 시행 유무
     public int Money = 100; //시작 돈
     public int life = 10; //목숨
     public int rabbit_number = 1;//UI 에서 선택한 토끼 종류 결정

@@ -4320,6 +4320,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_help1: {fileID: 1402320843}
   rabbit_pos1: {fileID: 944926462}
+  rabbit_help2: {fileID: 337868469}
+  rabbit_help3: {fileID: 1549883387}
 --- !u!114 &945998051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4715,7 +4717,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126807235}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -29.3, y: 11.65, z: -3.8679605}
+  m_LocalPosition: {x: -9.4, y: -40, z: -3.8679605}
   m_LocalScale: {x: 2.3182, y: 1.7463601, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12032,6 +12034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_help3: {fileID: 1549883387}
   rabbit_pos1: {fileID: 944926462}
+  rabbit_help2: {fileID: 337868469}
+  rabbit_help1: {fileID: 1402320843}
 --- !u!114 &1598433220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13210,6 +13214,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rabbit_pos1: {fileID: 944926462}
   rabbit_help2: {fileID: 337868469}
+  rabbit_help1: {fileID: 1402320843}
+  rabbit_help3: {fileID: 1549883387}
 --- !u!114 &1788507870
 MonoBehaviour:
   m_ObjectHideFlags: 0

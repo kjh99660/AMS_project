@@ -115,6 +115,7 @@ public class Musa : MonoBehaviour
                 }
             }
             Destroy(gameObject);
+            GameManager.instance.skill = false;
         }
       
         
