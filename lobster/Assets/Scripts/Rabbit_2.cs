@@ -72,13 +72,23 @@ public class Rabbit_2 : MonoBehaviour
                     i = collBear_1.Count;
                     continue;
                 }
+                if (collBear_1[i] != null && collBear_1[i].tag == "Bear_boss")
+                {
+                    Bear_boss target_4 = collBear_1[i].GetComponent<Bear_boss>();
+                    LR_Trun(collBear_1[i]);
+                    animator.Play("R2Attack");
+                    target_4.Bear_boss_HP -= 45; //토끼 공격력
+                    target_4.Bear_time = 0f;
+                    i = collBear_1.Count;
+                    continue;
+                }
             }
             coolTime = GameManager.instance.Rabbit2_attack_speed;
         }
     }
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.tag == "Bear_1" || coll.tag == "Bear_2" || coll.tag == "Bear_3" || coll.tag == "Bear_4")
+        if (coll.tag == "Bear_1" || coll.tag == "Bear_2" || coll.tag == "Bear_3" || coll.tag == "Bear_4" || coll.tag == "Bear_boss")
         {
             collBear_1.Add(coll.gameObject);
         }

@@ -64,6 +64,16 @@ public class Rabbit : MonoBehaviour
                     animator.Play("R1Attack");
                     
                 }
+                if (collBear_1[i] != null && collBear_1[i].tag == "Bear_boss")
+                {
+                    Bear_boss target_4 = collBear_1[i].GetComponent<Bear_boss>();
+                    LR_Trun(collBear_1[i]);
+                    animator.Play("R1Attack");
+                    target_4.Bear_boss_HP -= 45; //토끼 공격력
+                    target_4.Bear_time = 0f;
+                    i = collBear_1.Count;
+                    continue;
+                }
 
             }
             coolTime1 = GameManager.instance.Rabbit_attack_speed;// 토끼 공격속도
@@ -72,7 +82,7 @@ public class Rabbit : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D coll)
     {
-        if(coll.tag == "Bear_1" || coll.tag == "Bear_2")
+        if(coll.tag == "Bear_1" || coll.tag == "Bear_2" || coll.tag == "Bear_boss")
         {
             collBear_1.Add(coll.gameObject);
         }
