@@ -506,7 +506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000014901, y: 3.71}
+  m_AnchoredPosition: {x: 0.00000014901, y: 1.7730005}
   m_SizeDelta: {x: 6, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155907092
@@ -4795,7 +4795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000014901, y: 0.00000011921}
+  m_AnchoredPosition: {x: 0.00000014901, y: -1.82}
   m_SizeDelta: {x: 6, y: 3}
   m_Pivot: {x: 0.5, y: 0.50000006}
 --- !u!114 &1169354530
@@ -11299,8 +11299,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.21, y: 4.98}
-  m_SizeDelta: {x: 2.755, y: 2.681}
+  m_AnchoredPosition: {x: -0.272, y: 5.273}
+  m_SizeDelta: {x: 4, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514956052
 MonoBehaviour:
@@ -11841,7 +11841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00000014901, y: -3.62}
+  m_AnchoredPosition: {x: 0.00000014901, y: -5.32}
   m_SizeDelta: {x: 6, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1582817971
@@ -12662,6 +12662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stage_level: 3
   MousePosition: {x: 0, y: 0}
+  skill: 0
   Money: 300
   life: 6
   rabbit_number: 1
@@ -14362,8 +14363,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -342.45, y: -178.78}
-  m_SizeDelta: {x: -697.586, y: -383.66}
+  m_AnchoredPosition: {x: -342.45, y: -179.2351}
+  m_SizeDelta: {x: -697.586, y: -382.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2089674660
 MonoBehaviour:

@@ -23,7 +23,7 @@ public class Button_rabbit : MonoBehaviour
         rabbit_help1.SetActive(true);
         rabbit_help2.SetActive(false);
         rabbit_help3.SetActive(false);
-        //Instantiate(rabbit, new Vector3((int)GameManager.instance.MousePosition.x -0.2f , (int)GameManager.instance.MousePosition.y, 1), Quaternion.identity);
+       
     }
     
     // Update is called once per frame
