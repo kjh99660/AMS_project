@@ -431,7 +431,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 139790227}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c2cf52926366d247b398badceb9c173, type: 3}
+  m_Script: {fileID: 11500000, guid: e2ef7ba57ff56ce4c92616eb5dde89f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &139790232
@@ -454,7 +454,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c567773bb0c08f84d95a5c35f89688d4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee83feb2876dcb3468563abbb5c2ccce, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1928,9 +1928,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CreateBear: {fileID: 483293239535299063, guid: 56aab1d5e932ccb4ab79fb4b4f8efe6d,
     type: 3}
-  CreateBear_2: {fileID: 847899745501818965, guid: a3ac6eee15fcc3d488462bba1f3f2cee,
+  CreateBear_2: {fileID: 847899745501818965, guid: 913d35ae0c7918042a6d81278e6345e8,
     type: 3}
-  CreateBear_3: {fileID: 3112119957233375642, guid: 913d35ae0c7918042a6d81278e6345e8,
+  CreateBear_3: {fileID: 3112119957233375642, guid: a3ac6eee15fcc3d488462bba1f3f2cee,
     type: 3}
   CreateBear_4: {fileID: 4973955225439805706, guid: cd5057190d04cb54492d66d08d4807cc,
     type: 3}
@@ -13453,7 +13453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uACF5\uACA9 \uBC94\uC704: \uC8FC\uC704 1\uCE78,\n\uAD11\uC5ED\n\uACF5\uACA9\uB825:35"
+  m_Text: "\uACF5\uACA9 \uBC94\uC704: \uC8FC\uC704 1\uCE78,\n\uAD11\uC5ED\n\uACF5\uACA9\uB825:42"
 --- !u!222 &1889555861
 CanvasRenderer:
   m_ObjectHideFlags: 0

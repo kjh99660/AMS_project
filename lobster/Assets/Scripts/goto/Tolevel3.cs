@@ -2,20 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Tocutoon4 : MonoBehaviour
+
+public class Tolevel3 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
         
     }
+
     public void SceneChange()
     {
 
-        SceneManager.LoadScene("startScene");
-
+        SceneManager.LoadScene("level3");
 
     }
+
     // Update is called once per frame
     void Update()
     {

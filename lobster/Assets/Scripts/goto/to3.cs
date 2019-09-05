@@ -8,7 +8,7 @@ public class to3 : MonoBehaviour
     public void SceneChange()
     {
 
-        SceneManager.LoadScene("level3");
+        SceneManager.LoadScene("CutToon3");
 
     }
 }

@@ -70,7 +70,7 @@ public class Rabbit_3 : MonoBehaviour
                     LR_Trun(collBear_1[i]);
                     animator.Play("R3Attack");
                     target_4.Bear_boss_HP -= 42; //토끼 공격력
-                    target_4.Bear_time = 0f;
+                    
                     i = collBear_1.Count;
                     continue;
                 }
