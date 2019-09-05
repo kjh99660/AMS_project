@@ -13098,7 +13098,6 @@ MonoBehaviour:
   Money: 300
   life: 600
   rabbit_number: 1
-  Heal_term: 1
   Skill_term: 0
   Stun_term: 1
   Speed_up: 1.3
