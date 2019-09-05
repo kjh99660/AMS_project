@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
     public int Money = 100; //시작 돈
     public int life = 10; //목숨
     public int rabbit_number = 1;//UI 에서 선택한 토끼 종류 결정
-    public float Heal_term = 0.1f; //힐 쿨타임
     public float Skill_term = 0f; //스킬 쿨타임
     public float Stun_term = 1.0f;// 스턴 지속시간
     public float Speed_up = 2; //증가하는 속도값

@@ -34,7 +34,6 @@ public class Bear : MonoBehaviour
         }
         if(GameManager.instance.stage_level == 2)
         {
-            
             StartCoroutine(Move_2());
             
         }
@@ -312,7 +311,6 @@ public class Bear : MonoBehaviour
         }
         while (transform.position.x <= 13.7f)
         {
-            GameManager.instance.Heal_term -= Time.deltaTime;
             transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
         }
@@ -341,7 +339,6 @@ public class Bear : MonoBehaviour
         }
         while (transform.position.x <= 25.53f)
         {
-            GameManager.instance.Heal_term -= Time.deltaTime;
             transform.Translate(GameManager.instance.Bear_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
         }
@@ -373,10 +370,7 @@ public class Bear : MonoBehaviour
     //transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed* Time.deltaTime);
     void Update()
     {
-        if(GameManager.instance.Heal_term <=0 && this.Bear1_hp < 140)//4단계에서만 적용
-        {
-            Bear1_hp++;
-        }
+        
         if(Bear_time == 0)
         {
             Bear_stun_time -= Time.deltaTime;

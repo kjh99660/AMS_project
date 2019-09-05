@@ -309,7 +309,6 @@ public class Bear_4 : MonoBehaviour
         }
         while (transform.position.x <= 13.7f)
         {
-            GameManager.instance.Heal_term -= Time.deltaTime;
             transform.Translate(GameManager.instance.Bear_4_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
         }
@@ -338,7 +337,6 @@ public class Bear_4 : MonoBehaviour
         }
         while (transform.position.x <= 25.53f)
         {
-            GameManager.instance.Heal_term -= Time.deltaTime;
             transform.Translate(GameManager.instance.Bear_4_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
         }
@@ -369,10 +367,7 @@ public class Bear_4 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.Heal_term <= 0 && this.Bear4_hp < 10)
-        {
-            Bear4_hp++;
-        }
+        
         if (Bear_time == 0)
         {
             Bear_stun_time -= Time.deltaTime;

@@ -12663,10 +12663,9 @@ MonoBehaviour:
   stage_level: 3
   MousePosition: {x: 0, y: 0}
   skill: 0
-  Money: 300
-  life: 6
+  Money: 360
+  life: 100000
   rabbit_number: 1
-  Heal_term: 1
   Skill_term: 0
   Stun_term: 1
   Speed_up: 2

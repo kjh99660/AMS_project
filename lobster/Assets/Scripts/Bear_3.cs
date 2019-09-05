@@ -310,7 +310,6 @@ public class Bear_3 : MonoBehaviour
         }
         while (transform.position.x <= 13.7f)
         {
-            GameManager.instance.Heal_term -= Time.deltaTime;
             transform.Translate(GameManager.instance.Bear_3_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
         }
@@ -339,7 +338,6 @@ public class Bear_3 : MonoBehaviour
         }
         while (transform.position.x <= 25.53f)
         {
-            GameManager.instance.Heal_term -= Time.deltaTime;
             transform.Translate(GameManager.instance.Bear_3_speed * Time.deltaTime * Bear_time, 0, 0);
             yield return new WaitForEndOfFrame();
         }
@@ -371,10 +369,7 @@ public class Bear_3 : MonoBehaviour
     //transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed* Time.deltaTime);
     void Update()
     {
-        if (GameManager.instance.Heal_term <= 0 && this.Bear3_hp < 260)
-        {
-            Bear3_hp++;
-        }
+        
         if (Bear_time == 0)
         {
             Bear_stun_time -= Time.deltaTime;
