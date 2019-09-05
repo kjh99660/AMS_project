@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bear_boss : MonoBehaviour
 {
-    protected int Bear_boss_hp = 2000;
+    protected int Bear_boss_hp = 4000;
     public Renderer rend;
-    public float Bear_stun_time = 0.7f;//곰 스턴 시간
+    public float Bear_stun_time = 0.8f;//곰 스턴 시간
     public float Bear_time;
     private float speed_up;
 

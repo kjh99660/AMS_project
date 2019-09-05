@@ -34,7 +34,7 @@ public class Bear_2 : MonoBehaviour
         }
         if (GameManager.instance.stage_level == 2)
         {
-            Bear2_hp += 30;
+            Bear2_hp += 20;
             StartCoroutine(Move_2());
         }
         if (GameManager.instance.stage_level == 3)
