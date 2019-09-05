@@ -6,7 +6,7 @@ public class Bear_2 : MonoBehaviour
 {
     protected int Bear2_hp = 160;
     public Renderer rend;
-    public float Bear_stun_time = 0.7f;//곰 스턴 시간
+    public float Bear_stun_time = 0.8f;//곰 스턴 시간
     public float Bear_time;
     private float speed_up;
 
@@ -39,12 +39,12 @@ public class Bear_2 : MonoBehaviour
         }
         if (GameManager.instance.stage_level == 3)
         {
-            Bear2_hp += 30;
+            Bear2_hp += 20;
             StartCoroutine(Move_3());
         }
         if (GameManager.instance.stage_level == 4)
         {
-            Bear2_hp += 30;
+            Bear2_hp += 20;
             StartCoroutine(Move_4());
         }
 

@@ -12668,7 +12668,7 @@ MonoBehaviour:
   rabbit_number: 1
   Skill_term: 0
   Stun_term: 1
-  Speed_up: 2
+  Speed_up: 1.3
   Spown_term: 3
   Bear_number: 30
   Bear_speed: 3.9

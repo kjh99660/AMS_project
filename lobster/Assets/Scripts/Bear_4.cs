@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Bear_4 : MonoBehaviour
 {
-    protected int Bear4_hp = 300;
+    protected int Bear4_hp = 290;
     public Renderer rend;
-    public float Bear_stun_time = 0.7f;//곰 스턴 시간
+    public float Bear_stun_time = 0.8f;//곰 스턴 시간
     public float Bear_time;
     private float speed_up;
 
@@ -42,7 +42,7 @@ public class Bear_4 : MonoBehaviour
         }
         if (GameManager.instance.stage_level == 4)
         {
-            Bear4_hp += 10 ;
+
             StartCoroutine(Move_4());
         }
     }

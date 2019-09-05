@@ -6,7 +6,7 @@ public class Bear : MonoBehaviour
 {
     protected int Bear1_hp = 120;
     public Renderer rend ;
-    public float Bear_stun_time = 0.7f;//곰 스턴 시간
+    public float Bear_stun_time = 0.8f;//곰 스턴 시간
     public float Bear_time;
     public float speed_up;
 

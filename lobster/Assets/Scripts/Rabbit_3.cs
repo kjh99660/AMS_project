@@ -35,7 +35,7 @@ public class Rabbit_3 : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_1")
                 {
                     Bear target = collBear_1[i].GetComponent<Bear>();
-                    target.Bear1_HP -= 35;
+                    target.Bear1_HP -= 42;
                     LR_Trun(collBear_1[i]); //좌우 회전(아래 메소드 만들어둠)
                     animator.Play("R3Attack");  //애니메이션 실행. R1Attack 모션이 끝나면 자동으로 R1Stand로 돌아가는 것은 애니메이터에서 구현해둠.
 
@@ -43,7 +43,7 @@ public class Rabbit_3 : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_2")
                 {
                     Bear_2 target = collBear_1[i].GetComponent<Bear_2>();
-                    target.Bear2_HP -= 35;
+                    target.Bear2_HP -= 42;
                     LR_Trun(collBear_1[i]);
                     animator.Play("R3Attack");
 
@@ -51,7 +51,7 @@ public class Rabbit_3 : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_3")
                 {
                     Bear_3 target = collBear_1[i].GetComponent<Bear_3>();
-                    target.Bear3_HP -= 35;
+                    target.Bear3_HP -= 42;
                     LR_Trun(collBear_1[i]);
                     animator.Play("R3Attack");
 
@@ -59,7 +59,7 @@ public class Rabbit_3 : MonoBehaviour
                 if (collBear_1[i] != null && collBear_1[i].tag == "Bear_4")
                 {
                     Bear_4 target = collBear_1[i].GetComponent<Bear_4>();
-                    target.Bear4_HP -= 35;
+                    target.Bear4_HP -= 42;
                     LR_Trun(collBear_1[i]);
                     animator.Play("R3Attack");
 
@@ -69,7 +69,7 @@ public class Rabbit_3 : MonoBehaviour
                     Bear_boss target_4 = collBear_1[i].GetComponent<Bear_boss>();
                     LR_Trun(collBear_1[i]);
                     animator.Play("R3Attack");
-                    target_4.Bear_boss_HP -= 45; //토끼 공격력
+                    target_4.Bear_boss_HP -= 42; //토끼 공격력
                     target_4.Bear_time = 0f;
                     i = collBear_1.Count;
                     continue;
