@@ -23,6 +23,11 @@ public class ToUnitAssetMenu : MonoBehaviour
     {
 
     }
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
 
     public void OnClick_MenuOpenButton()
     {

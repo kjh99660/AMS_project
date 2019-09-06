@@ -16,6 +16,11 @@ public class Game_explain : MonoBehaviour
 
     }
 
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
     public void OnClick_MenuOpenButton()
     {
         if (panel.gameObject.activeSelf == true)

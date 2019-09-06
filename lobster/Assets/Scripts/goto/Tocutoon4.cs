@@ -12,7 +12,7 @@ public class Tocutoon4 : MonoBehaviour
     public void SceneChange()
     {
 
-        SceneManager.LoadScene("CutToon4");
+        SceneManager.LoadScene("startScene");
 
 
     }

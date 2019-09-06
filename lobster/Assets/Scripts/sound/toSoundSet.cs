@@ -17,6 +17,11 @@ public class toSoundSet : MonoBehaviour
         
     }
 
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
     public void OnClick_SoundButton()
     {
 

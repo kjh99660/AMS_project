@@ -24,7 +24,7 @@ public class Finishgame : MonoBehaviour
     void Update()
     {
         startTime += Time.deltaTime;
-       // Debug.Log("시간 : " + Time.time); // 주석처리
+        Debug.Log("시간 : " + Time.time); // 주석처리
         StopGame();
     }
     
@@ -34,7 +34,7 @@ public class Finishgame : MonoBehaviour
         {            
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);
-          
+            SoundManager.PlaySound("end");
         }
         
 

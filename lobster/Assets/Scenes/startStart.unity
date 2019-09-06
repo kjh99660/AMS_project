@@ -302,16 +302,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455382823}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.42261827, y: 0, z: 0, w: 0.9063079}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.3, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 921884506}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -50, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -400}
+  m_AnchoredPosition: {x: 0, y: -500}
   m_SizeDelta: {x: 1800, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &455382825
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.93733996, b: 0, a: 1}
+  m_Color: {r: 0.54433197, g: 0, b: 0.8962264, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -335,8 +335,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 150
+    m_Font: {fileID: 12800000, guid: b755afdf298287e488bb1204dcc954f2, type: 3}
+    m_FontSize: 160
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB5A1\uD1A0\uB07C \uB300\uC804\uC7C1"
+  m_Text: "\uC6D4\uD654\uC218\uBAA9\uACF0\uD1A0\uB07C"
 --- !u!222 &455382826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -580,26 +580,26 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543030724}
-  m_Text: "\uC9C0\uAD6C\uC640\uB294 \uB2E4\uB974\uAC8C\n\uAC01 \uD589\uC131\uB4E4\uACFC
-    \uC704\uC131\uB4E4\uC5D0\uAC8C\uB294\n\uC0DD\uBB3C\uB4E4\uC774 \uC0B4\uACE0\uC788\uB2E4.\r\n\uADF8\uB4E4\uC740
+  m_Text: "\uC9C0\uAD6C\uC640\uB294 \uB2E4\uB974\uAC8C\n\uD589\uC131\uB4E4\uACFC \uC704\uC131\uB4E4\uC5D0\uB294\n\uC778\uAC04\uC774
+    \uC544\uB2CC \uC0DD\uBB3C\uB4E4\uC774 \uC0B4\uACE0\uC788\uB2E4.\r\n\uADF8\uB4E4\uC740
     \uADF8\uB4E4\uB9CC\uC758 \uC0DD\uD65C\uC744 \uD558\uBA70\n\uD2B9\uC0C9\uC788\uB294
-    \uC74C\uC2DD\uB4E4\uC744 \uB9CC\uB4E4\uBA70 \uC0B4\uC544\uAC04\uB2E4.\r\n\uB2EC\uC5D0\uB294
-    \uC778\uAC04\uB4E4\uC774 \uBAA8\uB974\uB294\n\uD1A0\uB07C\uB4E4\uC774 \uC0B4\uACE0
-    \uC788\uB2E4.\r\n\r\n\uC774 \uC774\uC57C\uAE30\uB294 \uD1A0\uB07C\uB4E4\uC758
-    \uC0DD\uD65C\uC744 \uBC14\uAFBC\n\uC911\uC694\uD55C \uC0AC\uAC74\uC744 \uB2E4\uB8EC\uB2E4.\r\n\uADF8\uB4E4\uC758
-    \uB5A1\uACE0\uBB3C\uC744 \uD758\uB9AC\uBA70 \uC2F8\uC6B4 \uC804\uC7C1...\r\n\r\n\uADF8
-    \uC804\uC7C1\uC744 \uADF8\uB4E4\uC740\n\uACF0\u318D\uD1A0\uB07C \uB300\uC804\uC7C1
-    \uC774\uB77C \uBD80\uB978\uB2E4."
-  m_OffsetZ: 20
-  m_CharacterSize: 1
-  m_LineSpacing: 3
+    \uC74C\uC2DD\uC744 \uB9CC\uB4E4\uBA70 \uC0B4\uC544\uAC04\uB2E4.\r\n\uADF8 \uC911
+    \uB2EC\uC5D0\uB294\n\uC778\uAC04\uC5D0\uAC8C \uC54C\uB824\uC9C0\uC9C0 \uC54A\uC740
+    \uCC44\uB85C\n\uD1A0\uB07C\uB4E4\uC774 \uC0B4\uC544\uAC00\uACE0 \uC788\uB2E4.\r\n\r\n\uC774
+    \uC774\uC57C\uAE30\uB294\n\uADF8 \uD1A0\uB07C\uB4E4\uC758 \uC0DD\uD65C\uC744 \uBC14\uAFBC\n\uC911\uC694\uD55C
+    \uC0AC\uAC74\uC744 \uB2E4\uB8EC\uB2E4.\r\n\n\uADF8\uB4E4\uC758 \uB5A1\uACE0\uBB3C\uC744
+    \uD758\uB9AC\uBA70 \uC2F8\uC6B4 \uC804\uC7C1...\r\n\uADF8 \uC804\uC7C1\uC744 \uADF8\uB4E4\uC740\n\uACF0\u318D\uD1A0\uB07C
+    \uB300\uC804\uC7C1 \uC774\uB77C \uBD80\uB978\uB2E4."
+  m_OffsetZ: 22
+  m_CharacterSize: 0.7
+  m_LineSpacing: 1.3
   m_Anchor: 1
   m_Alignment: 1
   m_TabSize: 4
   m_FontSize: 80
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: b755afdf298287e488bb1204dcc954f2, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4278310894
@@ -620,7 +620,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: b755afdf298287e488bb1204dcc954f2, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -647,13 +647,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543030724}
-  m_LocalRotation: {x: 0.29237175, y: 0, z: 0, w: 0.9563048}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
   m_LocalPosition: {x: 1, y: -500, z: -20}
-  m_LocalScale: {x: 20, y: 0.5, z: 1}
+  m_LocalScale: {x: 30, y: 1.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 34, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!114 &1543030728
 MonoBehaviour:
   m_ObjectHideFlags: 0

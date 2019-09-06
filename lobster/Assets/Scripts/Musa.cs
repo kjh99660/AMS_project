@@ -10,6 +10,8 @@ public class Musa : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Stun();
+       
         
     }
 
@@ -127,45 +129,52 @@ public class Musa : MonoBehaviour
         {
             for (int i = 0; i < collBear_1.Count; i++)
             {
-                if (collBear_1[i].tag == "Bear_1")
+                try
                 {
-                    if (collBear_1[i] == null) continue;
-                    if ((collBear_1[i]).GetComponent<Bear>() == null) continue;
-                    Bear target = collBear_1[i].GetComponent<Bear>();
-                    target.Bear1_HP -= 160;
-                    Debug.Log("딜박힘");
+                    if (collBear_1[i].tag == "Bear_1")
+                    {
+                        if (collBear_1[i] == null) continue;
+                        if ((collBear_1[i]).GetComponent<Bear>() == null) continue;
+                        Bear target = collBear_1[i].GetComponent<Bear>();
+                        target.Bear1_HP -= 160;
+                        Debug.Log("딜박힘");
+                    }
+                    if (collBear_1[i].tag == "Bear_2")
+                    {
+                        if (collBear_1[i] == null) continue;
+                        if ((collBear_1[i]).GetComponent<Bear_2>() == null) continue;
+                        Bear_2 target_2 = collBear_1[i].GetComponent<Bear_2>();
+                        target_2.Bear2_HP -= 160;
+                        Debug.Log("딜박힘");
+                    }
+                    if (collBear_1[i].tag == "Bear_3")
+                    {
+                        if (collBear_1[i] == null) continue;
+                        if ((collBear_1[i]).GetComponent<Bear_3>() == null) continue;
+                        Bear_3 target = collBear_1[i].GetComponent<Bear_3>();
+                        target.Bear3_HP -= 160;
+                        Debug.Log("딜박힘");
+                    }
+                    if (collBear_1[i].tag == "Bear_4")
+                    {
+                        if (collBear_1[i] == null) continue;
+                        if ((collBear_1[i]).GetComponent<Bear_4>() == null) continue;
+                        Bear_4 target = collBear_1[i].GetComponent<Bear_4>();
+                        target.Bear4_HP -= 160;
+                        Debug.Log("딜박힘");
+                    }
+                    if (collBear_1[i].tag == "Bear_boss")
+                    {
+                        if (collBear_1[i] == null) continue;
+                        if ((collBear_1[i]).GetComponent<Bear_boss>() == null) continue;
+                        Bear_boss target = collBear_1[i].GetComponent<Bear_boss>();
+                        target.Bear_boss_HP -= 160;
+                        Debug.Log("딜박힘");
+                    }
                 }
-                if (collBear_1[i].tag == "Bear_2")
+                catch(MissingReferenceException)
                 {
-                    if (collBear_1[i] == null) continue;
-                    if ((collBear_1[i]).GetComponent<Bear_2>() == null) continue;
-                    Bear_2 target_2 = collBear_1[i].GetComponent<Bear_2>();
-                    target_2.Bear2_HP -= 160;
-                    Debug.Log("딜박힘");
-                }
-                if (collBear_1[i].tag == "Bear_3")
-                {
-                    if (collBear_1[i] == null) continue;
-                    if ((collBear_1[i]).GetComponent<Bear_3>() == null) continue;
-                    Bear_3 target = collBear_1[i].GetComponent<Bear_3>();
-                    target.Bear3_HP -= 160;
-                    Debug.Log("딜박힘");
-                }
-                if (collBear_1[i].tag == "Bear_4")
-                {
-                    if (collBear_1[i] == null) continue;
-                    if ((collBear_1[i]).GetComponent<Bear_4>() == null) continue;
-                    Bear_4 target = collBear_1[i].GetComponent<Bear_4>();
-                    target.Bear4_HP -= 160;
-                    Debug.Log("딜박힘");
-                }
-                if (collBear_1[i].tag == "Bear_boss")
-                {
-                    if (collBear_1[i] == null) continue;
-                    if ((collBear_1[i]).GetComponent<Bear_boss>() == null) continue;
-                    Bear_boss target = collBear_1[i].GetComponent<Bear_boss>();
-                    target.Bear_boss_HP -= 160;
-                    Debug.Log("딜박힘");
+                    
                 }
             }
             GameManager.instance.skill = false;
@@ -176,9 +185,10 @@ public class Musa : MonoBehaviour
     }
     void Update()
     {
-        Stun();
-        StartCoroutine("Attack");
-      
-        
+    
+            StartCoroutine("Attack");
+   
+       
+
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PauseGame : MonoBehaviour
 {
-    AudioSource Audio;
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,10 @@ public class PauseGame : MonoBehaviour
 
     }
 
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
 
     public void OnClick_StopButton()
     {

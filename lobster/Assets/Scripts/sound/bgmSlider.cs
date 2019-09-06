@@ -8,11 +8,11 @@ public class bgmSlider : MonoBehaviour
 {
     public Slider Volume;
     public AudioSource Audio;
-    private float Vol = 1f;
+    private float Vol = 0.5f;
     
     private void Start()
     {
-        Vol = 1f;
+        Vol = 0.5f;
         Volume.value = Vol;
         Audio.volume = Volume.value;
 
