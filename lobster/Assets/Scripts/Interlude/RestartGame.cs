@@ -17,6 +17,10 @@ public class RestartGame : MonoBehaviour
         
     }
 
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
 
     public void OnClick_RestartButton()
     {

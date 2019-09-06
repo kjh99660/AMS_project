@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class toCutToon : MonoBehaviour
 {
+
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
     public void SceneChange()
     {
 

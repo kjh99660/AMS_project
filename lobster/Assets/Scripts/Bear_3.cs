@@ -379,6 +379,11 @@ public class Bear_3 : MonoBehaviour
             Bear_stun_time = 0.8f;
             Bear_time = 1f;
         }
+        if (Bear3_hp <= 0)
+        {
+            SoundManager.PlaySound("bearDeath");
+        }
+
     }
 }
 

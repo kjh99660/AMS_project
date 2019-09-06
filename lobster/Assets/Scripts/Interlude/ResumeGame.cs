@@ -17,6 +17,11 @@ public class ResumeGame : MonoBehaviour
         
     }
 
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
     public void OnClick_ResumeButton()
     {
         Time.timeScale = 1;

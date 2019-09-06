@@ -7,6 +7,11 @@ using UnityEngine.UI;
 public class toBook : MonoBehaviour
 {
 
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
 
     public void SceneChange()
     {

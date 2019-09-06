@@ -27,6 +27,8 @@ public class Finishingame_2 : MonoBehaviour
         {
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);
+            SoundManager.PlaySound("end");
+            
         }
 
 

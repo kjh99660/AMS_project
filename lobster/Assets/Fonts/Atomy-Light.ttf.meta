@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 72b40515b74941241a69babc724376ef
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Atomy
+  fontNames:
+  - Atomy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b755afdf298287e488bb1204dcc954f2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

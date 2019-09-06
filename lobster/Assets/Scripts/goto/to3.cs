@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class to3 : MonoBehaviour
 {
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
     public void SceneChange()
     {
 

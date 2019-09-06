@@ -34,7 +34,7 @@ public class Finishgame : MonoBehaviour
         {            
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);
-          
+            SoundManager.PlaySound("end");
         }
         
 
