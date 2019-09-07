@@ -6,36 +6,39 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/level1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/startStart.unity
+    guid: 30310247c0b56a647826cf8210ab63eb
   - enabled: 1
     path: Assets/Scenes/startScene.unity
     guid: 8566a5608868c7f40a52c8b22fc7a254
   - enabled: 1
-    path: Assets/Scenes/waveSelect.unity
-    guid: eee85111e724cdc43bd2a4815c730200
-  - enabled: 1
-    path: Assets/Scenes/level3.unity
-    guid: 1e778dedc7447b84980dc414979a80a0
-  - enabled: 1
     path: Assets/Scenes/Book.unity
     guid: f8e2f9cf75fffdf4cb160ac7c3285c8b
   - enabled: 1
-    path: Assets/Scenes/level2.unity
-    guid: f1b79bd33c928134c8157f0c841bd090
+    path: Assets/Scenes/waveSelect.unity
+    guid: eee85111e724cdc43bd2a4815c730200
   - enabled: 1
     path: Assets/Scenes/CutToon.unity
     guid: 2e39f6cf4d671b94898a08aae771fd2a
   - enabled: 1
-    path: Assets/Scenes/level4.unity
-    guid: 66f227a77aa61f84fbc81a7d8b473201
-  - enabled: 1
-    path: Assets/Scenes/CutToon3.unity
-    guid: d4d1edfc82a33f7478f4e3bf0a73b719
+    path: Assets/Scenes/level1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/CutToon2.unity
     guid: 97a3f837dacc05142b76710ef17eef2a
   - enabled: 1
+    path: Assets/Scenes/level2.unity
+    guid: f1b79bd33c928134c8157f0c841bd090
+  - enabled: 1
+    path: Assets/Scenes/CutToon3.unity
+    guid: d4d1edfc82a33f7478f4e3bf0a73b719
+  - enabled: 1
+    path: Assets/Scenes/level3.unity
+    guid: 1e778dedc7447b84980dc414979a80a0
+  - enabled: 1
     path: Assets/Scenes/CutToon4.unity
     guid: e96c5d14b9462dd4abe723ab9aae4dba
+  - enabled: 1
+    path: Assets/Scenes/level4.unity
+    guid: 66f227a77aa61f84fbc81a7d8b473201
   m_configObjects: {}

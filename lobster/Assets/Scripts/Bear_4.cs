@@ -42,7 +42,6 @@ public class Bear_4 : MonoBehaviour
         }
         if (GameManager.instance.stage_level == 4)
         {
-
             StartCoroutine(Move_4());
         }
     }

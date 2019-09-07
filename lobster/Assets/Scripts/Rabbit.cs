@@ -69,7 +69,7 @@ public class Rabbit : MonoBehaviour
                     Bear_boss target_4 = collBear_1[i].GetComponent<Bear_boss>();
                     LR_Trun(collBear_1[i]);
                     animator.Play("R1Attack");
-                    target_4.Bear_boss_HP -= 45; //토끼 공격력
+                    target_4.Bear_boss_HP -= 20; //토끼 공격력
                     i = collBear_1.Count;
                     continue;
                 }

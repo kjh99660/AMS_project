@@ -124,6 +124,7 @@ public class Spawner : MonoBehaviour
                 GameObject newBear = Instantiate(CreateBear, new Vector3(-11.46f, 22.12f, -4), Quaternion.identity); // 생성
                 Fake_Bear1.Add(newBear);
 
+
                 GameManager.instance.Spown_term = 3.5f;// 리스폰시간 초기화
                 GameManager.instance.Bear_number--;
                 Bear1_numbering++;
@@ -133,6 +134,7 @@ public class Spawner : MonoBehaviour
             {
                 GameObject newBear = Instantiate(CreateBear, new Vector3(-17.45f, -4.04f, -4), Quaternion.identity); // 생성
                 Fake_Bear1.Add(newBear);
+
 
                 GameManager.instance.Spown_term = 3.0f;// 리스폰시간 초기화
                 GameManager.instance.Bear_number--;
