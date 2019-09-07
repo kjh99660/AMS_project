@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SManager2 : BgmSlider
+public class SManager2 : bgmSlider
 {
+    private bool jud = true;
 
-    public static SManager2 instance = null;
-
-    void Awake()
+    public void StopMusic()
     {
-        if (instance == null)
-            instance = this;
-        else if (instance != this)
-
-            Destroy(gameObject);
-
+        if (jud)
+        {
+            Audio.Pause();
+        }
+        else
+        {
+            Audio.UnPause();
+        }
 
     }
-
 
 }

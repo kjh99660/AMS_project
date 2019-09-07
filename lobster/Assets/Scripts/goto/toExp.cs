@@ -4,16 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class toExp : MonoBehaviour
+public class ToExp : MonoBehaviour
 {
 
-
-    public void SceneChange()
+    void Start()
     {
-
-        SceneManager.LoadScene("GameExp");
+        gameObject.SetActive(false);
+    }
+    public void OnClick_StopButton()
+    {
+        
+        gameObject.SetActive(true);
 
     }
-
 
 }

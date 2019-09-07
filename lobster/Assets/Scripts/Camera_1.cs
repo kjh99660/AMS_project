@@ -7,19 +7,15 @@ public class Camera_1 : MonoBehaviour
 {
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-
+        Time.timeScale = 1f;
 
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-        if (GameManager.instance.stage_level == 2)
-        {
-            SceneManager.LoadScene("level2");
-
-        }
+       
     }
 }

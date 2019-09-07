@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BgmSlider : MonoBehaviour
+
+public class bgmSlider : MonoBehaviour
 {
     public Slider Volume;
-    public AudioSource audio;
-
-    private float Vol = 1f;
-
+    public AudioSource Audio;
+    private float Vol = 0.5f;
+    
     private void Start()
     {
-     //   Vol = PlayerPrefs.GetFloat("backvol", 1f);
+        Vol = 0.5f;
         Volume.value = Vol;
-        audio.volume = Volume.value;
+        Audio.volume = Volume.value;
 
     }
 
@@ -26,11 +26,12 @@ public class BgmSlider : MonoBehaviour
 
     public void SoundSlider()
     {
-        audio.volume = Volume.value;//여기 계속 에러나요
-
+        
+        Audio.volume = Volume.value;
         Vol = Volume.value;
         PlayerPrefs.SetFloat("Vol", Vol);
     }
+
 
 
 }

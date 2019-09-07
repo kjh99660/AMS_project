@@ -6,10 +6,16 @@ public class ToUnitAssetMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject panel = null;
+    public GameObject Rabbit_pos = null;
+    public GameObject Rabbit_ex1 = null;
+    public GameObject Rabbit_ex2 = null;
+    public GameObject Rabbit_ex3 = null;
+
+
     void Start()
     {
-        gameObject.SetActive(false);
-
+        
+        panel.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -17,21 +23,32 @@ public class ToUnitAssetMenu : MonoBehaviour
     {
 
     }
+    public void OnCLick_Sound()
+    {
+        SoundManager.PlaySound("click");
+    }
+
 
     public void OnClick_MenuOpenButton()
     {
-        if(gameObject.activeSelf == true)
+        if (panel.gameObject.activeSelf == true )
         {
-            gameObject.SetActive(false);
+            panel.gameObject.SetActive(false);
+            Rabbit_pos.gameObject.SetActive(false);
+            Rabbit_ex1.gameObject.SetActive(false);
+            Rabbit_ex2.gameObject.SetActive(false);
+            if(GameManager.instance.stage_level != 1)
+            Rabbit_ex3.gameObject.SetActive(false);
+
             Debug.Log("꺼짐");
         }
         else
         {
-            gameObject.SetActive(true);
+            panel.gameObject.SetActive(true);
             Debug.Log("켜짐");
         }
 
-          //  gameObject.SetActive(!gameObject.active);
+          //gameObject.SetActive(!gameObject.active);
 
     }
 }
