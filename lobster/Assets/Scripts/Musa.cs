@@ -1,17 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Musa : MonoBehaviour
 {
     public Animator animator;
+    public Image image;
 
     public List<GameObject> collBear_1 = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
-        Stun();
-       
         
     }
 
@@ -174,6 +174,7 @@ public class Musa : MonoBehaviour
                 }
                 catch(MissingReferenceException)
                 {
+                    gameObject.SetActive(false);
                     
                 }
             }
@@ -185,10 +186,7 @@ public class Musa : MonoBehaviour
     }
     void Update()
     {
-    
-            StartCoroutine("Attack");
-   
-       
-
+        Stun();
+        StartCoroutine("Attack");
     }
 }

@@ -6586,6 +6586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84af58b473e000e4499cbb78a3bd2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  check_1: 0
 --- !u!114 &1371694470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12942,22 +12943,22 @@ MonoBehaviour:
   MousePosition: {x: 0, y: 0}
   skill: 0
   Money: 360
-  life: 100000
+  life: 10
   rabbit_number: 1
   Skill_term: 0
   Stun_term: 1
   Speed_up: 1.3
   Spown_term: 3
-  Bear_number: 30
+  Bear_number: 31
   Bear_speed: 3.9
   Spown_term_2: 19
-  Bear_2_number: 32
+  Bear_2_number: 24
   Bear_2_speed: 6
   Spown_term_3: 21
-  Bear_3_number: 37
+  Bear_3_number: 26
   Bear_3_speed: 4.9
   Spown_term_4: 20
-  Bear_4_number: 35
+  Bear_4_number: 24
   Bear_4_speed: 5.5
   Bear_b_speed: 4
   Bear_b_number: 1

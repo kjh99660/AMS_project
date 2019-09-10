@@ -64,7 +64,8 @@ public class SoundManager : MonoBehaviour
                 audioSrc.PlayOneShot(clickSound);
                 break;
             case "end":
-                audioSrc.PlayOneShot(endTheme);
+                if(audioSrc.isPlaying) audioSrc.Stop();
+                  audioSrc.PlayOneShot(endTheme);
                 break;
 
 

@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95479147069935410}
+  image: {fileID: 0}
   collBear_1: []
 --- !u!61 &5635109851942383945
 BoxCollider2D:

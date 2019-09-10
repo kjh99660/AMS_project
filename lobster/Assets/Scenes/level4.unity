@@ -13232,7 +13232,7 @@ MonoBehaviour:
   MousePosition: {x: 0, y: 0}
   skill: 0
   Money: 400
-  life: 200
+  life: 20
   rabbit_number: 1
   Skill_term: 0
   Stun_term: 1
@@ -13251,7 +13251,7 @@ MonoBehaviour:
   Bear_4_speed: 5.5
   Bear_b_speed: 4
   Bear_b_number: 1
-  Spown_term_b: 200
+  Spown_term_b: 190
   Rabbit_attack_speed: 1.3
   Rabbit2_attack_speed: 2
   Rabbit3_attack_speed: 1.6

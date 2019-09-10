@@ -40,7 +40,7 @@ public class BgmManager : MonoBehaviour
                 audioSrc.PlayOneShot(bossTheme);
                 break;
             case "lev1":
-                audioSrc.PlayOneShot(level1Theme);
+                audioSrc.PlayOneShot(level1Theme);              
                 break;
             case "lev2":
                 audioSrc.PlayOneShot(level2Theme);

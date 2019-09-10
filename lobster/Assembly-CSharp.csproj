@@ -67,10 +67,8 @@
     <Compile Include="Assets\Scripts\Bear_3.cs" />
     <Compile Include="Assets\Scripts\Bear_4.cs" />
     <Compile Include="Assets\Scripts\Bear_boss.cs" />
-    <Compile Include="Assets\Scripts\Bomb.cs" />
     <Compile Include="Assets\Scripts\Button_rabbit.cs" />
     <Compile Include="Assets\Scripts\Camera_1.cs" />
-    <Compile Include="Assets\Scripts\Camera_2.cs" />
     <Compile Include="Assets\Scripts\CanvasKeep.cs" />
     <Compile Include="Assets\Scripts\CutToon.cs" />
     <Compile Include="Assets\Scripts\Game_explain.cs" />
@@ -108,9 +106,6 @@
     <Compile Include="Assets\Scripts\rabbit_3_button.cs" />
     <Compile Include="Assets\Scripts\Rabbit_pos.cs" />
     <Compile Include="Assets\Scripts\Rabbit_skill.cs" />
-    <Compile Include="Assets\Scripts\Rabbit_Spawner.cs" />
-    <Compile Include="Assets\Scripts\RestartGame.cs" />
-    <Compile Include="Assets\Scripts\ResumeGame.cs" />
     <Compile Include="Assets\Scripts\Scale.cs" />
     <Compile Include="Assets\Scripts\ScrollStart.cs" />
     <Compile Include="Assets\Scripts\sound\BgmManager.cs" />
