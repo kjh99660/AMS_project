@@ -1,57 +1,64 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BgmManager : MonoBehaviour
 {
-    public static AudioClip mainTheme;
-    public static AudioClip level1Theme, level2Theme, level3Theme, level4Theme;
+    public static AudioClip mainTheme, bossTheme;
+    public static AudioClip level12Theme, level3Theme, level4Theme;
+    public static AudioClip endTheme;
 
-    public static AudioClip bossTheme;
-
-    static AudioSource audioSrc;
+    static AudioSource audioSrc2;
+    static AudioSource audioSrc3;
 
     private void Start()
     {
-
-        mainTheme = Resources.Load<AudioClip>("main");
         
+        mainTheme = Resources.Load<AudioClip>("main");
         bossTheme = Resources.Load<AudioClip>("boss");
+        level12Theme = Resources.Load<AudioClip>("level12");
+        level3Theme = Resources.Load<AudioClip>("level3");
+        level4Theme = Resources.Load<AudioClip>("level4");
 
-        level1Theme =  Resources.Load<AudioClip>("lev1");
-        level2Theme = Resources.Load<AudioClip>("lev2");
-        level3Theme = Resources.Load<AudioClip>("lev3");
-        level4Theme = Resources.Load<AudioClip>("lev4");
+        endTheme = Resources.Load<AudioClip>("end");
 
-        audioSrc = GetComponent<AudioSource>();
+        audioSrc2 = GetComponent<AudioSource>();
+        audioSrc3 = GetComponent<AudioSource>();
 
     }
 
-    public static void PlaySound(string clip)
+    public static void PlaySound2(string clip)
     {
-
 
         switch (clip)
         {
             case "main":
-                audioSrc.PlayOneShot(mainTheme);
+                audioSrc2.PlayOneShot(mainTheme);
                 break;
             case "boss":
-                audioSrc.PlayOneShot(bossTheme);
+                audioSrc2.PlayOneShot(bossTheme);
                 break;
-            case "lev1":
-                audioSrc.PlayOneShot(level1Theme);              
+            case "level12":
+                audioSrc2.PlayOneShot(level12Theme);
                 break;
-            case "lev2":
-                audioSrc.PlayOneShot(level2Theme);
+            case "level3":
+                audioSrc2.PlayOneShot(level3Theme);
                 break;
-            case "lev3":
-                audioSrc.PlayOneShot(level3Theme);
+            case "level4":
+                audioSrc2.PlayOneShot(level4Theme);
                 break;
-            case "lev4":
-                audioSrc.PlayOneShot(level4Theme);
+            case "end":
+                audioSrc3.PlayOneShot(endTheme);
                 break;
+
         }
+    }
+
+
+    public static void StopSound()
+    {
+        audioSrc2.Stop();
     }
 
 }

@@ -113,6 +113,9 @@
     <Compile Include="Assets\Scripts\sound\ClickSound.cs" />
     <Compile Include="Assets\Scripts\sound\Effect.cs" />
     <Compile Include="Assets\Scripts\sound\EndSound.cs" />
+    <Compile Include="Assets\Scripts\sound\level12_sound.cs" />
+    <Compile Include="Assets\Scripts\sound\level3.cs" />
+    <Compile Include="Assets\Scripts\sound\level4.cs" />
     <Compile Include="Assets\Scripts\sound\Music02.cs" />
     <Compile Include="Assets\Scripts\sound\offSoundSet.cs" />
     <Compile Include="Assets\Scripts\sound\SManager2.cs" />

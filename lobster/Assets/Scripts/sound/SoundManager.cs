@@ -7,7 +7,6 @@ public class SoundManager : MonoBehaviour
 {
     //public static SoundManager instance = null;
     public static AudioClip rab1Sound, rab2Sound, rab3Sound, bearDeathSound;
-    public static AudioClip rabMusaSound;
     public static AudioClip endTheme;
     public static AudioClip clickSound;
 
@@ -19,8 +18,6 @@ public class SoundManager : MonoBehaviour
         rab1Sound = Resources.Load<AudioClip>("rab1");
         rab2Sound = Resources.Load<AudioClip>("rab2");
         rab3Sound = Resources.Load<AudioClip>("rab3");
-        rabMusaSound = Resources.Load<AudioClip>("rabMusa");
-
         bearDeathSound = Resources.Load<AudioClip>("bearDeath");
         clickSound = Resources.Load<AudioClip>("click");
 
@@ -64,8 +61,7 @@ public class SoundManager : MonoBehaviour
                 audioSrc.PlayOneShot(clickSound);
                 break;
             case "end":
-                if(audioSrc.isPlaying) audioSrc.Stop();
-                  audioSrc.PlayOneShot(endTheme);
+                audioSrc.PlayOneShot(endTheme);
                 break;
 
 
