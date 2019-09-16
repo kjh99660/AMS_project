@@ -12,6 +12,7 @@ public class Finishingame_2 : MonoBehaviour
     void Start()
     {    
         gameObject.gameObject.SetActive(false);
+        GameManager.instance.sound = false;
     }
 
     // Update is called once per frame
@@ -19,16 +20,23 @@ public class Finishingame_2 : MonoBehaviour
     {
         // Debug.Log("시간 : " + Time.time);  주석처리
         StopGame();
+
     }
 
     void StopGame()
     {
+
         if (GameManager.instance.life <= 0) //패배
-        {
+        {       
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);
-            SoundManager.PlaySound("end");
-            
+            if (GameManager.instance.sound == false)
+            {
+                BgmManager.StopSound();
+                BgmManager.PlaySound2("end");
+                //Debug.Log("플레이됨");
+                GameManager.instance.sound = true;
+            }
         }
 
 

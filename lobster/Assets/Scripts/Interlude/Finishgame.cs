@@ -7,6 +7,7 @@ public class Finishgame : MonoBehaviour
     public float time, startTime;
     public static float limit;
     public new GameObject gameObject;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class Finishgame : MonoBehaviour
         if (GameManager.instance.stage_level == 3) limit = 227f;
         if (GameManager.instance.stage_level == 4) limit = 230f;
 
+        GameManager.instance.sound = false;
         gameObject.gameObject.SetActive(false);
     }
 
@@ -30,13 +32,19 @@ public class Finishgame : MonoBehaviour
     
     void StopGame()
     {
-        if ( startTime > limit) //승리
-        {            
+        if ( startTime > limit ) //승리
+        {
             Time.timeScale = 0;
             gameObject.gameObject.SetActive(true);
-            SoundManager.PlaySound("end");
-        }
-        
+            if (GameManager.instance.sound == false)
+            {
+                BgmManager.StopSound();
+                BgmManager.PlaySound2("end");
+                //Debug.Log("플레이됨");
+                GameManager.instance.sound = true;
+            }
+
+        } 
 
     }
 

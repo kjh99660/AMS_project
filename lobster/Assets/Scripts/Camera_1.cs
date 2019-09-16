@@ -10,12 +10,11 @@ public class Camera_1 : MonoBehaviour
     void Awake()
     {
         Time.timeScale = 1f;
-
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
-       
+
     }
 }

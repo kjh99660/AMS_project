@@ -40,6 +40,8 @@ public class GameManager : MonoBehaviour
     public float Rabbit3_attack_speed = 1.6f; //토끼3 공속
 
 
+    public bool sound = true;
+
     private void Awake()
     {
         instance = this;

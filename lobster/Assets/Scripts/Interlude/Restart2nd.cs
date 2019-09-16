@@ -6,10 +6,17 @@ using UnityEngine.SceneManagement;
 public class Restart2nd : Finishgame
 {
     // Start is called before the first frame update
+    void Start()
+    {
 
+    }
 
     // Update is called once per frame
+    void Update()
+    {
 
+
+    }
 
     void OnClick_RestartAgainButton()
     {

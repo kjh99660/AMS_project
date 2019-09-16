@@ -245,8 +245,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 121639811}
-  - component: {fileID: 121639812}
   - component: {fileID: 121639813}
+  - component: {fileID: 121639812}
   m_Layer: 0
   m_Name: BgmManager
   m_TagString: Untagged
@@ -278,11 +278,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 95c370356e538c44ab6980944cfb5325, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2038,6 +2038,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2152,6 +2153,18 @@ MonoBehaviour:
   time: 0
   startTime: 0
   gameObject: {fileID: 137488294}
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5fb140837628e74a95c0cdfa1e2ab35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &524670798
 GameObject:
   m_ObjectHideFlags: 0
@@ -10449,7 +10462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -64, y: 0.000015258789}
+  m_AnchoredPosition: {x: -64, y: 0}
   m_SizeDelta: {x: -1431.2, y: -763.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547534173
